@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#2ECC71"
+    tools:context="com.example.user.familycyclefinal.signupAsMarriedcouple">
+
+
+    <EditText
+        android:drawableTint="@android:color/background_dark"
+        android:id="@+id/kaziUserName"
+        android:paddingLeft="5dp"
+        android:drawableLeft="@drawable/ic_action_man"
+        android:layout_width="320dp"
+        android:layout_height="55dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="79dp"
+        android:background="@drawable/side_nav_bar"
+        android:ems="10"
+        android:textAlignment="center"
+        android:hint="Enter username"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/kaziEmail"
+        android:paddingLeft="5dp"
+        android:drawingCacheQuality="auto"
+        android:drawableTint="@android:color/background_dark"
+        android:drawableLeft="@drawable/ic_action_email"
+        android:textAlignment="center"
+        android:layout_width="320dp"
+        android:layout_height="55dp"
+        android:layout_alignEnd="@+id/kaziUserName"
+        android:layout_alignRight="@+id/kaziUserName"
+        android:layout_below="@+id/kaziUserName"
+        android:layout_marginTop="30dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="Enter Email Address"
+        android:background="@drawable/side_nav_bar"/>
+
+    <EditText
+        android:id="@+id/kaziPassword"
+        android:paddingLeft="5dp"
+        android:drawingCacheQuality="auto"
+        android:drawableTint="@android:color/background_dark"
+        android:drawableLeft="@drawable/ic_action_pass"
+        android:background="@drawable/side_nav_bar"
+        android:layout_width="320dp"
+        android:layout_height="55dp"
+        android:textAlignment="center"
+        android:layout_alignEnd="@+id/kaziEmail"
+        android:layout_alignRight="@+id/kaziEmail"
+        android:layout_below="@+id/kaziEmail"
+        android:layout_marginTop="33dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="Enter password" />
+
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="320dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="56dp"
+        android:background="@drawable/oval"
+        android:text="sign up" />
+
+    <Button
+        android:id="@+id/stagepopup"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/kaziPassword"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="19dp"
+        android:background="@android:color/holo_green_light"
+        android:text="select a stage" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="22dp"
+        android:text="Sign up as married couple"
+        android:textSize="20dp"
+        android:textColor="@android:color/holo_red_light"
+        android:textStyle="bold"/>
+
+</RelativeLayout>

@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.user.familycyclefinal.Family_Planning.Menustralcalender">
+
+    <TextView
+        android:paddingTop="10dp"
+        android:id="@+id/boundary"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="#943126"
+        android:text="Menstrual  Calender"
+        android:textColor="@android:color/white"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:textSize="25dp"/>
+    <ScrollView
+        android:layout_below="@+id/boundary"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#FADBD8"
+        android:padding="10dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/intro"
+                android:textSize="17dp"
+                android:textColor="@android:color/black"
+                android:text="The menstrual cycle is a fundamental part of life for all women but it is a topic which often goes undiscussed.
+
+Many may have questions relating to the links between conception and the menstrual cycle, but be hesitant to ask their regular GP.
+
+Why are periods sometimes inconsistent? What can affect them? Is there are a time of the month where it is harder or easier to get pregnant?
+
+To help those who may be unsure, below we have supplied a helpful calendar guide to the monthly menstruation cycle, along with some answers to a number of regularly asked questions relating to menstruation and conception."/>
+
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/img1"
+                android:layout_below="@+id/intro"
+                android:src="@drawable/menstrual"
+                />
+
+            <TextView
+                android:textStyle="bold"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/id2"
+                android:layout_below="@+id/img1"
+                android:textSize="25dp"
+                android:textColor="@android:color/black"
+                android:text="Menstruation calendar:" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textSize="17dp"
+                android:id="@+id/id3"
+                android:layout_below="@+id/id2"
+                android:textColor="@android:color/black"
+                android:text="Day1
+Signified by the first day of your period when you experience a ‘bleed’.
+
+This is triggered by a drop in the progesterone hormone when the body recognises that fertilisation of the egg has not occurred. The endometrium must be renewed in preparation for a new egg.
+
+Days 3-7
+Bleeding usually stops around this point. A number of eggs in the ovaries begin to mature ready for release at the point of ovulation.
+
+Days 7-14
+One egg will continue to develop and reach maturity. The lining of the womb will start to thicken in preparation for ovulation.
+
+Day 14
+Around this time, a change in female hormones will cause the mature egg to be propelled out of the ovary to commence its journey.
+
+This is known as ovulation.
+
+Over the next few days the egg will travel down the fallopian tubes eventually meeting the womb.
+
+If you have unprotected sex at this stage a sperm may come into contact and thus fertilise your egg. The combined cells will travel into the womb where they will attach themselves to the thickened endometrium and begin to develop.
+
+Day 25
+If the egg has not been fertilised hormone levels will drop and the egg will be broken down. The new period will begin in the next few days." />
+
+            <TextView
+                android:textStyle="bold"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/id4"
+                android:layout_below="@+id/id3"
+                android:textSize="25dp"
+                android:textColor="@android:color/black"
+                android:text="What is premenstrual syndrome (PMS)?:" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textSize="17dp"
+                android:id="@+id/id5"
+                android:layout_below="@+id/id4"
+                android:textColor="@android:color/black"
+                android:text="Throughout the menstrual cycle, levels of hormones change in the female body; and these fluctuations can sometimes manifest physically in a variety of ways.
+
+In the two weeks prior to the start of a period some women develop symptoms of PMS or premenstrual tension (PMT). These can include but are not solely limited to breast pain, mood swings, being easily irritated, a loss of interest in sex and stomach bloating.
+
+Severe symptoms that prevent the woman from getting on with their daily life may be diagnosed as premenstrual dysphoric disorder (PMDD) which is thought to affect between 2 and 10 percent[1] of menstruating women." />
+
+            <TextView
+                android:textStyle="bold"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/id6"
+                android:layout_below="@+id/id5"
+                android:textSize="25dp"
+                android:textColor="@android:color/black"
+                android:text="What can affect a regular menstruation cycle?" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textSize="17dp"
+                android:id="@+id/id7"
+                android:layout_below="@+id/id6"
+                android:textColor="@android:color/black"
+                android:text="Most women will get to know their own menstrual cycle but there are things that might change or alter it in some way.
+
+The regularity of periods can be affected by stress, sudden changes in weight, diet, medication, health conditions such as polycystic ovary syndrome (PCOS) and of course pregnancy. Your period may be lighter or heavier, occur less frequently or disappear entirely, known clinically as amenorrhoea.
+
+If you have concerns about changes in your menstrual cycle you should speak to your doctor." />
+
+            <TextView
+                android:textStyle="bold"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/id8"
+                android:layout_below="@+id/id7"
+                android:textSize="25dp"
+                android:textColor="@android:color/black"
+                android:text="Can you have sex during your period?:" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textSize="17dp"
+                android:id="@+id/id9"
+                android:layout_below="@+id/id8"
+                android:textColor="@android:color/black"
+                android:text="Yes, however there may be an increased risk of contracting or transmitting sexually transmitted infections (STIs) at this time, so practising safe sex (with a barrier contraceptive) is important. Sex during the menstrual bleed can also be uncomfortable because the cervix may be in a different position to what it is usually." />
+
+
+
+
+
+        </RelativeLayout>
+
+
+    </ScrollView>
+
+
+
+</RelativeLayout>

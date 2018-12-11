@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.user.familycyclefinal.Ambulance">
+
+
+    <TextView
+        android:paddingTop="10dp"
+        android:id="@+id/boundary"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="#212F3D"
+        android:text="Ambulance List"
+        android:textColor="@android:color/white"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:textSize="25dp"/>
+    <ScrollView
+        android:layout_below="@+id/boundary"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#ABB2B9"
+        android:padding="10dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/intro"
+                android:textSize="20dp"
+                android:textColor="@android:color/black"
+                android:text="Fire Service Ambulance	 Tel: 9556666, 9555555
+
+Anju-Man-e-Mafidul Islam	 Tel: 9336611, 7411660, 7410786
+
+Al-Markazul lslami Ambulance Service	 Tel: 9127867, 8114980
+
+Apanjon Ambulance Service	 Tel: 9125420
+
+BSMMU	 Tel: 9661551-60, 8616641-50
+
+BARDEM	 Tel : 9661551-60, 8616641-50 Ext-2301
+
+BNSB.Dhaka Eye Hospital	 Tel: 8014476
+
+CMH (Dhaka)	 Tel: 9871469
+
+Day-Night Ambulance Service	 Tel: 9123073, 8122041
+
+Dhaka Medical College Hospital	 Tel: 8626812
+
+Dhaka Eye Hospital	 Tel: 8014476
+
+Heart Hospital	 Tel: 9801874, 9803302
+
+Holy Family Hospital	 Tel: 8311721-25
+
+ICDDRB (Cholere Hospital)	 Tel: 8811751-60
+
+IPGMR	 Tel: 8614001-5, 8614545-9, 8612550-4, 8618652-6
+
+Medinova Medical Service Ltd.	 Tel: 8113721, 9120288, 9116851
+
+Monowara General Hospital	 Tel: 8318135, 8319802, 8318529
+
+National Heart Institute	 Tel: 9122560-72, 8114806
+
+Rafa Ambulance Service	 Tel: 9110663
+
+Red Crescent Ambulance	 Tel: 9330188-89
+
+Salimullah Medical College	 Tel: 7319002-6
+
+Shahid Suhrawardi Hospital	 Tel: 9130800
+
+Shishu Hospital	 Tel: 9113512, 8116061-2, 8114571-2
+
+South Asian Hospital	 Tel: 8616565, 9665852.
+
+South Asian Hospital	 Tel: 8616565, 9665852."/>
+
+
+
+
+        </RelativeLayout>
+
+
+    </ScrollView>
+
+
+</RelativeLayout>

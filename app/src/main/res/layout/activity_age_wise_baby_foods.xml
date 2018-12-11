@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.user.familycyclefinal.BabyCare.AgeWiseBabyFoods">
+
+    <TextView
+        android:paddingTop="10dp"
+        android:id="@+id/boundary"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="#0E6655"
+        android:text="Age Wise Newborn Baby Foods"
+        android:textColor="@android:color/white"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:textSize="25dp"/>
+    <ScrollView
+        android:layout_below="@+id/boundary"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#A9DFBF"
+        android:padding="10dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+
+            <TextView
+                android:textStyle="bold"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/id2"
+                android:textSize="25dp"
+                android:textColor="@android:color/black"
+                android:text="Cow milk based Foods:" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textSize="17dp"
+                android:id="@+id/id3"
+                android:layout_below="@+id/id2"
+                android:textColor="@android:color/black"
+                android:text="10–12 months 1 serving (1/2 cup yogurt or 3/4 oz cheese)
+
+What Are Good Sources :
+Whole-milk yogurt
+Cheese
+At 12 months, introduce whole milk (according to AAP)
+Why It’s Important
+Provides calcium, vitamins A and D, and protein for growing strong bones" />
+
+            <TextView
+                android:textStyle="bold"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/id4"
+                android:layout_below="@+id/id3"
+                android:textSize="25dp"
+                android:textColor="@android:color/black"
+                android:text="Grains and cereals:" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textSize="17dp"
+                android:id="@+id/id5"
+                android:layout_below="@+id/id4"
+                android:textColor="@android:color/black"
+                android:text="4–6 months 3–4 Tbsp
+
+6–12 months 4 Tbsp or more
+
+What Are Good Sources :
+Iron-fortified baby cereals, starting with single-grain cereals first
+Finger foods, such as teething biscuits, pasta, puffs, and bread
+At 8–12 months, introduce crackers
+Why It’s Important :
+Offers complex carbohydrates, vitamins (B complex), minerals (zinc and magnesium), and fiber your infant needs to fuel activity such as rolling, crawling, and walking" />
+
+            <TextView
+                android:textStyle="bold"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/id6"
+                android:layout_below="@+id/id5"
+                android:textSize="25dp"
+                android:textColor="@android:color/black"
+                android:text="Vegetables :" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textSize="17dp"
+                android:id="@+id/id7"
+                android:layout_below="@+id/id6"
+                android:textColor="@android:color/black"
+                android:text="6–8 months 1 Tbsp per meal, working up to 4–5 Tbsp per day
+
+8–10 months 4 Tbsp or more
+
+10–12 months 4–8 Tbsp
+
+What Are Good Sources :
+Strained vegetables from 6–8 months
+At 8 months, introduce vegetable pieces the size of child's thumbnail with the consistency of canned cooked carrots
+Why It’s Important :
+Delivers vitamins A, B, and C, trace minerals, fiber, and protein. Vitamin C helps absorb iron. Vitamin B strengthens the immune system and nervous system and helps with muscle and cell growth. Vitamin A helps with vision, while fiber assists with elimination." />
+
+            <TextView
+                android:textStyle="bold"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/id8"
+                android:layout_below="@+id/id7"
+                android:textSize="25dp"
+                android:textColor="@android:color/black"
+                android:text="Fruits :" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textSize="17dp"
+                android:id="@+id/id9"
+                android:layout_below="@+id/id8"
+                android:textColor="@android:color/black"
+                android:text="6–8 months 1 Tbsp per meal, working up to 4–5 Tbsp per day
+
+8–10 months 4 Tbsp or more
+
+10–12 months 8–12 Tbsp
+
+What Are Good Sources :
+Strained fruits or Stage 1 fruits
+At 8 months, introduce cooked fruit pieces, the size of child's thumbnail or smaller, with the consistency of a baked apple
+Why It’s Important :
+Provides vitamins and fiber important to digestive well-being and overall health" />
+
+
+
+            <TextView
+                android:textStyle="bold"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/id10"
+                android:layout_below="@+id/id9"
+                android:textSize="25dp"
+                android:textColor="@android:color/black"
+                android:text="Meat / Protien:" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textSize="17dp"
+                android:id="@+id/id11"
+                android:layout_below="@+id/id10"
+                android:textColor="@android:color/black"
+                android:text="8–10 months 1 Tbsp
+
+10–12 months 2–4 Tbsp
+
+What Are Good Sources :
+Cooked, pureed meats or poultry, cheese cubes, tofu, or egg yolk
+
+Why It’s Important :
+Ensures the protein (as well as iron, B vitamins, and zinc) needed to build muscle" />
+
+            <TextView
+                android:textStyle="bold"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/id12"
+                android:layout_below="@+id/id11"
+                android:textSize="25dp"
+                android:textColor="@android:color/black"
+                android:text="Water:" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textSize="17dp"
+                android:id="@+id/id13"
+                android:layout_below="@+id/id12"
+                android:textColor="@android:color/black"
+                android:text="4–12 months 4 oz or more
+
+Why It’s Important
+Water is important for staying hydrated to help keep the excretory system functioning properly. It also helps your baby develop a taste for this basic necessity" />
+
+
+
+
+
+
+        </RelativeLayout>
+
+
+    </ScrollView>
+
+
+
+</RelativeLayout>

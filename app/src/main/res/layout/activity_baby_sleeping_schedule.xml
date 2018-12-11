@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.user.familycyclefinal.BabyCare.BabySleepingSchedule">
+
+
+    <TextView
+        android:paddingTop="10dp"
+        android:id="@+id/boundary"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:background="#0E6655"
+        android:text="New Born Babies Sleeping Schedule"
+        android:textColor="@android:color/white"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:textSize="25dp"/>
+    <ScrollView
+        android:layout_below="@+id/boundary"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#A9DFBF"
+        android:padding="10dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+            <TextView
+                android:textStyle="bold"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/id2"
+                android:textSize="25dp"
+                android:textColor="@android:color/black"
+                android:text="0 to 6 Weeks:" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textSize="17dp"
+                android:id="@+id/id3"
+                android:layout_below="@+id/id2"
+                android:textColor="@android:color/black"
+                android:text="Your day should start around...
+7 AM
+
+Total hrs of sleep (in a 24-hr period)
+15 to 18 hours
+
+Naps
+3 to 5 naps, each 15 minutes to 3 hours long
+
+Time awake between sleeps
+30 minutes to 1 hour
+
+Longest stretch of nighttime sleep
+2 to 4 hours
+
+Bedtime should be around...
+9:30 to 11 PM" />
+
+            <TextView
+                android:textStyle="bold"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/id4"
+                android:layout_below="@+id/id3"
+                android:textSize="25dp"
+                android:textColor="@android:color/black"
+                android:text="2 to 3 Months:" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textSize="17dp"
+                android:id="@+id/id5"
+                android:layout_below="@+id/id4"
+                android:textColor="@android:color/black"
+                android:text="Your day should start around...
+6 to 6:30 AM
+
+Total hrs of sleep (in a 24-hr period)
+14 to 16 hours
+
+Naps
+3 to 4 naps, each 30 minutes to 3 hours long
+
+Time awake between sleeps
+45 minutes to 2 hours
+
+Longest stretch of nighttime sleep
+3 to 6 hours
+
+Bedtime should be around...
+8 to 10 PM " />
+
+            <TextView
+                android:textStyle="bold"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/id6"
+                android:layout_below="@+id/id5"
+                android:textSize="25dp"
+                android:textColor="@android:color/black"
+                android:text="4 to 6 Months:" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textSize="17dp"
+                android:id="@+id/id7"
+                android:layout_below="@+id/id6"
+                android:textColor="@android:color/black"
+                android:text="Your day should start around...
+7 to 8 AM
+
+Total hrs of sleep (in a 24-hr period)
+12 to 15 hours
+
+Naps
+Usually 3 naps, each 1 to 3 hours long
+
+Time awake between sleeps
+1.5 to 2.5 hours
+
+Longest stretch of nighttime sleep
+4 to 8 hours
+
+Bedtime should be around...
+8:30 to 9:30 PM" />
+
+            <TextView
+                android:textStyle="bold"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/id8"
+                android:layout_below="@+id/id7"
+                android:textSize="25dp"
+                android:textColor="@android:color/black"
+                android:text="6 to 10 Months:" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textSize="17dp"
+                android:id="@+id/id9"
+                android:layout_below="@+id/id8"
+                android:textColor="@android:color/black"
+                android:text=" Your day should start around...
+7 AM
+
+Total hrs of sleep (in a 24-hr period)
+11 to 15 hours
+
+Naps
+2 or 3 naps, each 1 to 3 hours long
+
+Time awake between sleeps
+2 or 3 hours
+
+Longest stretch of nighttime sleep
+5 to 10 hours
+
+Bedtime should be around...
+8 to 9:30 PM" />
+
+
+
+            <TextView
+                android:textStyle="bold"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/id10"
+                android:layout_below="@+id/id9"
+                android:textSize="25dp"
+                android:textColor="@android:color/black"
+                android:text="10 to 12 Months:" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textSize="17dp"
+                android:id="@+id/id11"
+                android:layout_below="@+id/id10"
+                android:textColor="@android:color/black"
+                android:text="Your day should start around...
+6 to 7:30 AM
+
+Total hrs of sleep (in a 24-hr period)
+11 to 14 hours
+
+Naps
+1 or 2 naps, each 1 to 2 hours long
+
+Time awake between sleeps
+2.5 to 3.5+ hours
+
+Longest stretch of nighttime sleep
+7 to 12 hours
+
+Bedtime should be around...
+8 to 9 PM" />
+
+
+
+
+
+        </RelativeLayout>
+
+
+    </ScrollView>
+
+
+</RelativeLayout>

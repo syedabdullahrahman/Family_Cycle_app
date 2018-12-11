@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.user.familycyclefinal"
+    android:installLocation="preferExternal">
+
+    <uses-sdk
+        android:minSdkVersion="15"
+        android:targetSdkVersion="26" />
+
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="com.google.android.providers.gsf.permisson.READ_GSERVICES"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+
+
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="@string/google_maps_key" />
+
+        <activity
+            android:name=".splashscreen"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".LoginActivity"
+            android:label="Login" />
+        <activity
+            android:name=".SignUp"
+            android:label="sign up selection" />
+        <activity
+            android:name=".SignUpAsKazi"
+            android:label="Kazi Sign Up" />
+        <activity
+            android:name=".signupAsMarriedcouple"
+            android:label="Married Couple Sign Up" />
+        <activity
+            android:name=".User_post_here_for_allstage"
+            android:label="User post" />
+        <activity android:name=".ShareTheApp" />
+        <activity
+            android:name=".SelectStage"
+            android:label="Select Your Stage" />
+        <activity
+            android:name=".After_Marriage.af_boundary"
+            android:label="Married Life" />
+        <activity
+            android:name=".Family_Planning.FamilyPlanningActivity"
+            android:label="Family Planning" />
+        <activity
+            android:name=".DuringPragnancy.DuringPragnancyActivity"
+            android:label="During Pregnancy" />
+        <activity
+            android:name=".BabyCare.BabyCareActivity"
+            android:label="Baby Care and Nutrition" />
+        <activity
+            android:name=".HomePage_AllStageActivity"
+            android:label="Home" />
+        <activity
+            android:name=".Kazi.KazirMainActivity"
+            android:label="Home" />
+        <activity
+            android:name=".Kazi.RegistrationFormActivity"
+            android:label="Marriage Registration Form" />
+        <activity
+            android:name=".Chatbot_AllStageActivity"
+            android:label="Chat Bot" />
+        <activity
+            android:name=".DuringPragnancy.pregnancy_details"
+            android:label="Pregnancy Calculator" />
+        <activity
+            android:name=".DuringPragnancy.pregnancyweekbyweek_dp"
+            android:label="Pregnancy week by week" />
+        <activity android:name=".DuringPragnancy.meditation_dp" />
+        <activity
+            android:name=".After_Marriage.AfterMarriageActivity"
+            android:label="Married Life" />
+        <activity
+            android:name=".Kazi.KaziProfileEdit"
+            android:label="Edit Profile" />
+        <activity android:name=".DuringPragnancy.health_problem_during_pragnancy" />
+        <activity android:name=".DuringPragnancy.mental_problems_during_prag" />
+        <activity android:name=".DuringPragnancy.C_section_birth" />
+        <activity
+            android:name=".Married_Couple_Profile_Activity"
+            android:label="Couple Profile" />
+        <activity
+            android:name=".Married_couple_profile_edit"
+            android:label="Edit profile" />
+        <activity android:name=".DuringPragnancy.Diet_chart" />
+        <activity android:name=".DuringPragnancy.EatingHabits" />
+        <activity
+            android:name=".Contacts"
+            android:label="Contacts" />
+
+        <activity
+            android:name=".maps.MapsActivity"
+            android:label="Find">
+        </activity>
+
+
+        <activity android:name=".After_Marriage.Intemacy" />
+        <activity android:name=".After_Marriage.BoundaryProblems" />
+        <activity android:name=".After_Marriage.Healthissues" />
+        <activity android:name=".After_Marriage.Communication" />
+        <activity android:name=".After_Marriage.Challenges" />
+        <activity android:name=".After_Marriage.HappyMoments" />
+        <activity android:name=".After_Marriage.HoneymoonPackage" />
+        <activity android:name=".Family_Planning.ovulationperioid" />
+        <activity android:name=".Family_Planning.Menustralcalender" />
+        <activity android:name=".Family_Planning.Fertilitywindow" />
+        <activity android:name=".Family_Planning.PredictPregnancy" />
+        <activity android:name=".Family_Planning.NaturalMethodsForAvoingPregnancy" />
+        <activity android:name=".Family_Planning.ImproveWomenHealth" />
+        <activity android:name=".Family_Planning.TrackWeight" />
+        <activity android:name=".Family_Planning.Medicationtobirthcontrol" />
+        <activity android:name=".BabyCare.VitaminAndMinarels" />
+        <activity android:name=".BabyCare.BabyProductAdvertisement" />
+        <activity android:name=".BabyCare.VaccinationTimeDate" />
+        <activity android:name=".BabyCare.BabySleepingSchedule" />
+        <activity android:name=".BabyCare.AgeWiseBabyFoods" />
+        <activity android:name=".BabyCare.AgeWiseBabyActivities" />
+        <activity android:name=".BabyCare.FeedingSchedule" />
+        <activity android:name=".BabyCare.ObesityRisk" />
+        <activity android:name=".AboutActivity" />
+        <activity android:name=".ContactUs" />
+        <activity android:name=".RateApp" />
+        <activity android:name=".Kazi.HomepageKazi"
+            android:label="Home" />
+        <activity android:name=".Kazi.DenmaharKaziShare" />
+        <activity android:name=".Kazi.GovernmentRevenue" />
+        <activity android:name=".Kazi.OfficeofKazis" />
+        <activity android:name=".Kazi.MrgCertificates" />
+        <activity android:name=".Kazi.MrgRulesandRegulations" />
+        <activity android:name=".DoctorList" />
+        <activity android:name=".Ambulance" />
+        <activity android:name=".Clinics" />
+        <activity android:name=".HelpSupport"></activity>
+    </application>
+
+</manifest>

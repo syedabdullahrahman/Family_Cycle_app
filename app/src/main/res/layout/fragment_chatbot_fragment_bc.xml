@@ -1,0 +1,37 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.user.familycyclefinal.BabyCare.ChatbotFragment_bc">
+
+    <!-- TODO: Update blank fragment layout -->
+
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/imageView22"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="22dp"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:text="Welcome to chatbot conversion at Baby care stage. Here, you can make conversation with our specilaized doctors about baby care and baby nutrition. Press the bot icon to start the conversation"
+        android:textSize="20dp"
+        android:textColor="@android:color/holo_purple"
+        android:textStyle="italic"
+        android:textAlignment="center"/>
+
+    <ImageView
+        android:id="@+id/imageView22"
+        android:layout_width="380dp"
+        android:layout_height="280dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="59dp"
+        android:src="@drawable/chatbot_icon" />
+</RelativeLayout>

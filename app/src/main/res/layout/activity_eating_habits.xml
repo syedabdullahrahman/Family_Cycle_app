@@ -1,0 +1,279 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back1"
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp"
+    tools:context="com.example.user.familycyclefinal.DuringPragnancy.meditation_dp">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:paddingTop="10dp"
+            android:layout_height="70dp"
+            android:text="Foods to eat:"
+            android:textSize="40dp"
+            android:textColor="#EEEBE1"
+            android:textStyle="bold"/>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="380dp"
+            android:layout_gravity="center_vertical|right"
+            android:textSize="20dp"
+            android:textColor="@android:color/white"
+           android:text="During pregnancy, the goal is to be eating nutritious foods most of the time, Krieger told Live Science. To maximize prenatal nutrition, she suggests emphasizing the following five food groups: fruits, vegetables, lean protein, whole grains and dairy products.
+
+When counseling pregnant women, Krieger recommends they fill half their plates with fruits and vegetables, a quarter of it with whole grains and a quarter of it with a source of lean protein, and to also have a dairy product at every meal."
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:paddingTop="10dp"
+            android:layout_height="110dp"
+            android:text="Fruits and Vegetables : "
+            android:textSize="40dp"
+            android:textColor="#EEEBE1"
+            android:textStyle="bold"/>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="220dp"
+            android:layout_gravity="center_vertical|right"
+            android:textSize="20dp"
+            android:textColor="@android:color/white"
+           android:text="Pregnant women should focus on fruits and vegetables, particularly during the second and third trimesters, Krieger said. Get between five and 10 tennis ball-size servings of produce every day, she said. These colorful foods are low in calories and filled with fiber, vitamins and minerals."
+            />
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:paddingTop="10dp"
+            android:layout_height="70dp"
+            android:text="Lean Protien"
+            android:textSize="40dp"
+            android:textColor="#EEEBE1"
+            android:textStyle="bold"/>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="190dp"
+            android:layout_gravity="center_vertical|right"
+            android:textSize="20dp"
+            android:textColor="@android:color/white"
+            android:text="Pregnant women should include good protein sources at every meal to support the baby's growth, Krieger said. Protein-rich foods include meat, poultry, fish, eggs, beans, tofu, cheese, milk, nuts and seeds."
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:paddingTop="10dp"
+            android:layout_height="70dp"
+            android:text="Whole Grains"
+            android:textSize="40dp"
+            android:textColor="#EEEBE1"
+            android:textStyle="bold"/>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="190dp"
+            android:layout_gravity="center_vertical|right"
+            android:textSize="20dp"
+            android:textColor="@android:color/white"
+            android:text=" These foods are an important source of energy in the diet, and they also provide fiber, iron and B-vitamins. At least half of a pregnant woman's carbohydrate choices each day should come from whole grains, such as oatmeal, whole-wheat pasta or breads and brown rice, Krieger said."
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:paddingTop="10dp"
+            android:layout_height="70dp"
+            android:text="Dairy prodcuts"
+            android:textSize="40dp"
+            android:textColor="#EEEBE1"
+            android:textStyle="bold"/>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="600dp"
+            android:layout_gravity="center_vertical|right"
+            android:textSize="20dp"
+            android:textColor="@android:color/white"
+            android:text="Aim for 3 to 4 servings of dairy foods a day, Krieger suggested. Dairy foods, such as milk, yogurt and cheese are good dietary sources of calcium, protein and vitamin D.
+
+In addition to a healthy diet, pregnant women also need to take a daily prenatal vitamin to obtain some of the nutrients that are hard to get from foods alone, such as folic acid and iron, according to ACOG.
+
+For women who take chewable prenatal vitamins, Krieger advised checking the product labels, because chewables might not have sufficient iron levels in them.
+
+Detailed information on healthy food choices and quantities to include at meals can also be found in the pregnancy section of the USDA's choosemyplate.gov."
+            />
+
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:paddingTop="10dp"
+            android:layout_height="80dp"
+            android:textAlignment="center"
+            android:text="Foods to Limit"
+            android:textSize="48dp"
+            android:textColor="@android:color/holo_red_dark"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:paddingTop="10dp"
+            android:layout_height="70dp"
+            android:text="Caffeine"
+            android:textSize="40dp"
+            android:textColor="#EEEBE1"
+            android:textStyle="bold"/>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:layout_gravity="center_vertical|right"
+            android:textSize="20dp"
+            android:textColor="@android:color/white"
+           android:text=" Consuming fewer than 200 mg of caffeine a day, which is the amount found in one 12-ounce cup of coffee, is generally considered safe during pregnancy, according to a 2010 ACOG committee opinion, which was reaffirmed in 2013. The committee report said moderate caffeine consumption during pregnancy does not appear to contribute to miscarriage or premature birth."
+            />
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:paddingTop="10dp"
+            android:layout_height="70dp"
+            android:text="Fish"
+            android:textSize="40dp"
+            android:textColor="#EEEBE1"
+            android:textStyle="bold"/>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="380dp"
+            android:layout_gravity="center_vertical|right"
+            android:textSize="20dp"
+            android:textColor="@android:color/white"
+           android:text="Fish is a good source of lean protein, and some fish, including salmon and sardines, also contain omega-3 fatty acids, a healthy fat that's good for the heart. It is safe for pregnant women to eat 8 to 12 ounces of cooked fish and seafood a week, according to ACOG. However, they should limit albacore or white tuna, which has high levels of mercury, to no more than 6 ounces a week, according to ACOG. Mercury is a metal that can be harmful to a baby's developing brain. Canned light tuna has less mercury than albacore white tuna and is safer to eat during pregnancy."
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:paddingTop="10dp"
+            android:layout_height="70dp"
+            android:textAlignment="center"
+            android:text="Foods to Avoid"
+            android:textSize="48dp"
+            android:textColor="@android:color/holo_red_dark"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:paddingTop="10dp"
+            android:layout_height="70dp"
+            android:text="Alcohol"
+            android:textSize="40dp"
+            android:textColor="#EEEBE1"
+            android:textStyle="bold"/>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:layout_gravity="center_vertical|right"
+            android:textSize="20dp"
+            android:textColor="@android:color/white"
+            android:text="Avoid alcohol during pregnancy, Krieger advised. Alcohol in the mother's blood can pass directly to the baby through the umbilical cord. Heavy use of alcohol during pregnancy has been linked with fetal alcohol spectrum disorders, a group of conditions that can include physical problems, as well as learning and behavioral difficulties in babies and children, according to the Centers for Disease Control and Prevention (CDC)."
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:paddingTop="10dp"
+            android:layout_height="100dp"
+            android:text="Fish with high levels of mercury:"
+            android:textSize="35dp"
+            android:textColor="#EEEBE1"
+            android:textStyle="bold"/>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:layout_gravity="center_vertical|right"
+            android:textSize="20dp"
+            android:textColor="@android:color/white"
+            android:text=" Seafood such as swordfish, shark, king mackerel, marlin, orange roughy and tilefish are high in levels of methyl mercury, according to the Academy of Nutrition and Dietetics, and should be avoided during pregnancy. Methyl mercury is a toxic chemical that can pass through the placenta and can be harmful to an unborn baby's developing brain, kidneys and nervous system."
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:paddingTop="10dp"
+            android:layout_height="70dp"
+            android:text="Unpasteurized food: "
+            android:textSize="40dp"
+            android:textColor="#EEEBE1"
+            android:textStyle="bold"/>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="700dp"
+            android:layout_gravity="center_vertical|right"
+            android:textSize="20dp"
+            android:textColor="@android:color/white"
+            android:text=" According to the USDA, pregnant women are at high risk for getting sick from two different types of food poisoning: listeriosis, caused by the Listeria bacteria, and toxoplasmosis, an infection caused by a parasite.
+
+The CDC says that Listeria infection may cause miscarriage, stillbirth, preterm labor, and illness or death in newborns. To avoid listeriosis, the USDA recommends avoiding the following foods during pregnancy:
+
+Unpasteurized (raw) milk and foods made from it, such as feta, Brie, Camembert, blue-veined cheeses, queso blanco and queso fresco. Pasteurization involves heating a product to a high temperature to kill harmful bacteria.
+Hot dogs, luncheon meats and cold cuts unless heated to steaming hot before eating to kill any bacteria.
+Store-bought deli salads, such as ham salad, chicken salad, tuna salad and seafood salad.
+Unpasteurized refrigerated meat spreads or pates."
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:paddingTop="10dp"
+            android:layout_height="70dp"
+            android:text="Raw Meat:"
+            android:textSize="40dp"
+            android:textColor="#EEEBE1"
+            android:textStyle="bold"/>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="480dp"
+            android:layout_gravity="center_vertical|right"
+            android:textSize="20dp"
+            android:textColor="@android:color/white"
+            android:text=" A mother can pass a Toxoplasma infection on to her baby, which can cause problems such as blindness and mental disability later in life, reports the CDC. To prevent toxoplasmosis, the USDA recommends avoiding the following foods during pregnancy:
+
+Rare, raw or undercooked meats and poultry.
+Raw fish, such as sushi, sashimi, ceviches and carpaccio.
+Raw and undercooked shellfish, such as clams, mussels, oysters and scallops."
+            />
+
+
+
+
+
+
+
+
+    </LinearLayout>
+
+</ScrollView>

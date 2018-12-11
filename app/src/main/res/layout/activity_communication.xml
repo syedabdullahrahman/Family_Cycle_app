@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.user.familycyclefinal.After_Marriage.Communication">
+
+
+    <TextView
+        android:paddingTop="10dp"
+        android:id="@+id/boundary"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="#6C3483"
+        android:text="Communication in Married life"
+        android:textColor="@android:color/white"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:textSize="25dp"/>
+    <ScrollView
+        android:layout_below="@+id/boundary"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#AED6F1"
+        android:padding="10dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+            <TextView
+                android:textStyle="bold"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/id2"
+                android:textSize="25dp"
+                android:textColor="@android:color/black"
+                android:text="You Might Learn Something New:" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textSize="17dp"
+                android:id="@+id/id3"
+                android:layout_below="@+id/id2"
+                android:textColor="@android:color/black"
+                android:text="The person you are married to is not the person you first met. Neither are you the same. Every day brings new experiences, thoughts, dreams, plans. It’s a guarantee that if you work at communicating you will discover new things about each other.
+
+These new discoveries stretch out in two directions from where you are now. You will discover experiences from your spouse’s childhood that you never knew. You don’t know them because the person you love has them hidden away in their memory. They don’t remember until some new experience triggers a recollection." />
+
+            <TextView
+                android:textStyle="bold"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/id4"
+                android:layout_below="@+id/id3"
+                android:textSize="25dp"
+                android:textColor="@android:color/black"
+                android:text="Less Hassle:" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textSize="17dp"
+                android:id="@+id/id5"
+                android:layout_below="@+id/id4"
+                android:textColor="@android:color/black"
+                android:text="“Why won’t you talk to me?” “I know something is bothering you-what is it?” “Don’t just walk away. Talk to me. Please!”
+
+Be honest. Avoiding communications is as much work as communicating. So why not just talk, or do you like being pursued? Does being silent give you more control over the situation? While it may seem that way, ultimately you’ll have a spouse who will trust you less. Giving your partner the gift of your time to talk things through will make your life simpler in the long run." />
+
+            <TextView
+                android:textStyle="bold"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/id6"
+                android:layout_below="@+id/id5"
+                android:textSize="25dp"
+                android:textColor="@android:color/black"
+                android:text="You Learn More About Yourself:" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textSize="17dp"
+                android:id="@+id/id7"
+                android:layout_below="@+id/id6"
+                android:textColor="@android:color/black"
+                android:text="Have you ever tried to explain your thoughts or feelings to someone else and during the conversation you end up in a different place from where you began? Putting your thoughts into words forces you to clarify them. Talking and listening also allows you to fine tune your ideas." />
+
+            <TextView
+                android:textStyle="bold"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/id8"
+                android:layout_below="@+id/id7"
+                android:textSize="25dp"
+                android:textColor="@android:color/black"
+                android:text="Builds Up Your Relationship:" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textSize="17dp"
+                android:id="@+id/id9"
+                android:layout_below="@+id/id8"
+                android:textColor="@android:color/black"
+                android:text="Couples who don’t communicate are in danger of losing love and affection for one another. All relationships are nourished by communications. If you don’t communicate with parents, siblings, co-workers, children, or your partner, you lose touch with them and your relationship withers." />
+
+
+
+            <TextView
+                android:textStyle="bold"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/id10"
+                android:layout_below="@+id/id9"
+                android:textSize="25dp"
+                android:textColor="@android:color/black"
+                android:text="Allows You To Concentrate On Other Things:" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textSize="17dp"
+                android:id="@+id/id11"
+                android:layout_below="@+id/id10"
+                android:textColor="@android:color/black"
+                android:text="Have you ever found yourself continuing a discussion you had earlier while you were at work? “I should have said this” you say to yourself. “Oh yeah? Well what about the time you did…” Perhaps you’re so upset about an unfinished conversation earlier in the day that you call your spouse to either apologize or get one more point across. Listening and talking effectively resolves the issue and frees your mind to concentrate on other tasks." />
+
+            <TextView
+                android:textStyle="bold"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/id12"
+                android:layout_below="@+id/id11"
+                android:textSize="25dp"
+                android:textColor="@android:color/black"
+                android:text="It’s Good For Your Health:" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textSize="17dp"
+                android:id="@+id/id13"
+                android:layout_below="@+id/id12"
+                android:textColor="@android:color/black"
+                android:text="Good communications in marriage reduces stress for two reasons. First, it allows you to resolve the tension between you, and second, it allows you to “vent’ some of your anxieties from other areas of your life. Many couples report that their partner is the first person they could fully trust. “I can tell him anything”, one wife said recently. “I know he will listen and understand how I feel.”" />
+
+            <TextView
+                android:textStyle="bold"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/id14"
+                android:layout_below="@+id/id13"
+                android:textSize="25dp"
+                android:textColor="@android:color/black"
+                android:text="Saves Time:" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textSize="17dp"
+                android:id="@+id/id15"
+                android:layout_below="@+id/id14"
+                android:textColor="@android:color/black"
+                android:text="“Yeah” “Sure” “Whatever” may seem like an efficient way of dealing with your husband or wife when they want to talk but it’s not. Sooner or later an unresolved issue must be discussed. So taking the time the first time your spouse wants to talk with you will ultimately prove to be a time saver. You won’t have to go back to the beginning and start again, because you communicated clearly and honestly the first time around." />
+
+            <TextView
+                android:textStyle="bold"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/id16"
+                android:layout_below="@+id/id15"
+                android:textSize="25dp"
+                android:textColor="@android:color/black"
+                android:text="Saves Money:" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textSize="17dp"
+                android:id="@+id/id17"
+                android:layout_below="@+id/id16"
+                android:textColor="@android:color/black"
+                android:text="There’s no doubt about it, poor communications can be costly. Flowers, candy, gifts large and small are regularly offered by a spouse who said the “wrong thing’ or failed to say the “right thing.” When you look at costly mistakes in a marriage the majority of them are a result of poor communications." />
+
+
+
+
+
+
+        </RelativeLayout>
+
+
+    </ScrollView>
+</RelativeLayout>

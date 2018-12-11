@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.user.familycyclefinal.User_post_here_for_allstage">
+
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="User post"
+                android:textStyle="bold"
+                android:textColor="@android:color/holo_green_dark"
+                android:textSize="25dp"
+                android:paddingBottom="10dp"
+                android:paddingTop="10dp"
+                android:textAlignment="center"/>
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+                <ImageView
+                    android:id="@+id/uploadpropic"
+                    android:layout_width="380dp"
+                    android:layout_height="250dp"
+                    android:layout_alignParentTop="true"
+                    android:layout_centerHorizontal="true"
+                    android:src="@drawable/imgupld" />
+            </RelativeLayout>
+
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:text="select your stage: "
+    android:textStyle="bold"
+    android:textSize="20dp"
+    android:textColor="@android:color/holo_purple"
+    android:paddingBottom="10dp"/>
+
+            <CheckBox
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="After Marriage"
+                android:id="@+id/checkaf"
+                />
+            <CheckBox
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Family Planning"
+                android:id="@+id/checkfp"
+                />
+            <CheckBox
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="During Pregnancy"
+                android:id="@+id/checkdp"
+                />
+            <CheckBox
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Bare Care"
+                android:id="@+id/checkbc"
+                />
+
+
+
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textAlignment="center"
+                android:hint="Enter Title"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                android:id="@+id/titledeo"/>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:hint="Enter Distcription"
+                android:textAlignment="center"
+                android:id="@+id/descriptiondeo"/>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/submit"
+                android:text="submit your post here"
+                android:background="@drawable/oval"/>
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

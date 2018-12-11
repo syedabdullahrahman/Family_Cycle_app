@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back1"
+    tools:context="com.example.user.familycyclefinal.DuringPragnancy.pregnancyweekbyweek_dp">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:text="First Trimester"
+            android:textSize="30dp"
+            android:textColor="#EEEBE1"
+            android:textStyle="bold"/>
+        <me.biubiubiu.justifytext.library.JustifyTextView
+            android:layout_width="match_parent"
+            android:layout_height="420dp"
+            android:layout_gravity="center_vertical|right"
+            android:textSize="20dp"
+            android:textColor="@android:color/white"
+            android:text="Fertilization to week 13 is the period for this trimester. Week 1 to week 3 is period is the time for ovulation. After this test the pregnancy over and over again. If position consult a doctor for the first prenatal checkup. Some issues had to be maintained if the test is negative. Next six week is critical for baby’s development. Some pregnancy related discomfort will appear. Week six where a pregnant woman may find herself a split personality like moody one and joyful in the next. Spotting or bleeding may appear. Uterus size doubling up to week six.  Baby’s heartbeat will be heard in the week of ten. Up to week 13 the risk of miscarriage will be lower."/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:text="Second Trimester"
+            android:textSize="30dp"
+            android:textColor="#EEEBE1"
+            android:textStyle="bold"/>
+
+        <me.biubiubiu.justifytext.library.JustifyTextView
+            android:layout_width="match_parent"
+            android:layout_height="420dp"
+            android:textSize="20dp"
+            android:textColor="@android:color/white"
+            android:text="Week 13 to 28 is the period of second trimester. Relief from sickness and gain some energy is the most health related issues. Bump will grow and gradually baby stating to blood test and ultrasonic scan will be tested within week 20. In 24 weeks pregnant, the baby has a chance of survival if it is born. Most babies born before this time may not live because vital organs are not developed enough. Womb will begin to get bigger more quickly and may feel hungrier than before baby may begin to follow a pattern for waking and sleeping. Very often this is a different pattern from mothers, so when mother go to bed at night; the baby may wake up and start kicking and may also get indigestion, feel tired and have some swelling."/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:text="Third Trimester"
+            android:textSize="30dp"
+            android:textColor="#EEEBE1"
+            android:textStyle="bold"/>
+
+        <me.biubiubiu.justifytext.library.JustifyTextView
+            android:layout_width="match_parent"
+            android:layout_height="420dp"
+            android:textSize="20dp"
+            android:textColor="@android:color/white"
+            android:text="By about 32 weeks the baby is usually lying with its head pointing downwards, ready for birth. Baby’s bones are starting to harden now, even though the skull bones will stay soft and separated to make the journey through the birth canal easier. At 37 weeks, pregnancy is considered full-term. In the last weeks, the baby’s head should move down into your pelvis. When baby’s head moves, it is said to be ‘engaged’. Most women will go into labor between 38 and 42 weeks of pregnancy."
+            />
+
+
+    </LinearLayout>
+
+</ScrollView>

@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.user.familycyclefinal.Kazi.MrgRulesandRegulations">
+
+    <TextView
+        android:paddingTop="10dp"
+        android:id="@+id/boundary"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:background="#6C3483"
+        android:text="Rules and Regulations of Muslime Marriage"
+        android:textColor="@android:color/white"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:textSize="25dp"/>
+    <ScrollView
+        android:layout_below="@+id/boundary"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#E8DAEF"
+        android:padding="10dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+
+            <TextView
+                android:textStyle="bold"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/id2"
+
+                android:textSize="25dp"
+                android:textColor="@android:color/black"
+                android:text="Conditions for Marriage :" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textSize="17dp"
+                android:id="@+id/id3"
+                android:layout_below="@+id/id2"
+                android:textColor="@android:color/black"
+                android:text="1. Minimum Age of the female or bride must be 18 years and male must be 21 years. Both must
+have to bring-
+• national ID card or
+• School Certificates for example-SSC/JSC/JDC certificates or
+• Passport or
+• Birth Certificate
+2. Declaration or offer of marriage by one of the parties and acceptance (Kabul) by the other
+party.
+3. Minimum two witnesses must be present. In case of female witness it will be counted as 1
+male=2 female. For example: witness can be two male or 2 females and one male.
+4. One person will be present as guardian or Ukil/ Ukilbaba of the parties.
+5. Dower money or Denmahar Must be decided by the guardian of the parties or by Parties of
+the marriage." />
+
+            <TextView
+                android:textStyle="bold"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/id4"
+                android:layout_below="@+id/id3"
+                android:textSize="25dp"
+                android:textColor="@android:color/black"
+                android:text="Marriage Fees :" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textSize="17dp"
+                android:id="@+id/id5"
+                android:layout_below="@+id/id4"
+                android:textColor="@android:color/black"
+                android:text="Marriage registration fees are fixed on the basis of Dower Money.
+1. For each 1000/- (One Thousand Taka) of dower money, registration fee is 12.50/- (Twelve
+Taka and Fifty Paisa)
+2. For each 1,00,000/- (One Lac Taka) of dower money, registration fee is 1,250/- (One Thousand
+Two Hundred and Fifty Taka)
+3. After 4,00,000/- (Four Lac Taka), for each lac registration fee is 100/- (One Hundred Taka)
+Example: Dower money 1000/-., registration fee = 12.50/- Dower money 1 lac taka, registration
+fee= 1,250/- Dower money 4 lac taka, registration fee= 5,000/- Dower money 5 lac taka,
+registration fee= 5,100/" />
+
+            <TextView
+                android:textStyle="bold"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/id6"
+                android:layout_below="@+id/id5"
+                android:textSize="25dp"
+                android:textColor="@android:color/black"
+                android:text="Religious Formalities :" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textSize="17dp"
+                android:id="@+id/id7"
+                android:layout_below="@+id/id6"
+                android:textColor="@android:color/black"
+                android:text=" The Kazi will do the religious formalities. He will recite Surah for
+marriage and ask for consent of the parties to the marriage." />
+
+            <TextView
+                android:textStyle="bold"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/id8"
+                android:layout_below="@+id/id7"
+                android:textSize="25dp"
+                android:textColor="@android:color/black"
+                android:text="Legal Formalities :" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textSize="17dp"
+                android:id="@+id/id9"
+                android:layout_below="@+id/id8"
+                android:textColor="@android:color/black"
+                android:text=" The Marriage Registrar or Kazi will fill up the Marriage Register Book or
+the bride or groom can also fill up the form. After filling up the form the bride and groom will
+sign the form in the Marriage Register Book. The Marriage Registrar or Kazi will give them a
+receipt for collecting Kabin-nama. " />
+
+            <TextView
+                android:textStyle="bold"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/id10"
+                android:layout_below="@+id/id9"
+                android:textSize="25dp"
+                android:textColor="@android:color/black"
+                android:text="Conditions of Kabin Nama :" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textSize="17dp"
+                android:id="@+id/id11"
+                android:layout_below="@+id/id10"
+                android:textColor="@android:color/black"
+                android:text="Parties of the marriage can get Kabin-nama showing the marriage
+registration receipt after 1 weeks from the marriage. In case of an emergency Kabin-nama can
+be collected within a day.
+" />
+
+
+
+
+
+        </RelativeLayout>
+
+
+    </ScrollView>
+
+
+
+</RelativeLayout>

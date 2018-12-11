@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.user.familycyclefinal.After_Marriage.Intemacy">
+
+
+    <TextView
+        android:paddingTop="10dp"
+        android:id="@+id/boundary"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="#6C3483"
+        android:text="Married Life Intemacy"
+        android:textColor="@android:color/white"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:textSize="25dp"/>
+
+    <ScrollView
+        android:layout_below="@+id/boundary"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#AED6F1"
+        android:padding="10dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/id1"
+                android:textSize="17dp"
+                android:textColor="@android:color/black"
+                android:text="Is sex really that important in marriage? Why yes, it is. If you remove sex from your marriage, then you and your spouse are just glorified roommates. Sexual intimacy creates a bond that nothing else really can. But, if you are like many people I know, you may question why it is so important. After all, it’s just sex, right?
+
+Here are three reasons sex needs to be a priority in your marriage:"    />
+
+            <TextView
+                android:textStyle="bold"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/id2"
+                android:layout_below="@+id/id1"
+                android:textSize="25dp"
+                android:textColor="@android:color/black"
+                android:text="Brings you closer together:"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textSize="17dp"
+                android:id="@+id/id3"
+                android:layout_below="@+id/id2"
+                android:textColor="@android:color/black"
+                android:text="There is no other deeper feeling of connection than what you experience after making love with your spouse. On the other hand, when sex is lacking couples feel a disconnect. When couples argue and avoid seeing eye to eye, the usual culprit is not enough intimate sex. “Not enough sex”  does not mean the kind of sex that is merely physically satisfying. Quite the opposite really. It’s about making love. The type of sex that leaves you fully satisfied both emotionally and physically. The type of sex that creates a bond between a husband and wife. Dare I say the kind that makes you cry? This kind of sex is intimacy in marriage. It bonds you and your spouse together. When you are having enough intimate sex, the rest of your marriage will fall into place that much more easily. You and your spouse will get along better. Not because you have a ton of sex but because the type of sex you are having helps to make you and your spouse truly connected."
+                />
+            <TextView
+                android:textStyle="bold"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/id4"
+                android:layout_below="@+id/id3"
+                android:textSize="25dp"
+                android:textColor="@android:color/black"
+                android:text="Allows you to become more selfless:"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textSize="17dp"
+                android:id="@+id/id5"
+                android:layout_below="@+id/id4"
+                android:textColor="@android:color/black"
+               android:text="When you and your spouse are having great sex, it is usually because both of you are putting each other first. When you do that, both of you end up being highly satisfied physically and emotionally. There is a difference between this deep connection and just having sex.
+
+Just having sex allows one or both partners to feel physically satisfied for the moment. But just having sex (not meaningful, connected sex) only feels good in that moment. Whenever my husband or I have a quickie neither of us come out of it feeling an overwhelming amount of connection. Instead, we wind up feeling a bit lacking.
+
+Listen, being with your spouse sexually is great. But being with your spouse sexually in a way that puts their needs first is amazing! Selflessness in bed allows both you and your partner to truly show your love for one another. It allows both of you to feel satisfaction in knowing that your spouse cares for you in every area of life. This bond of selflessness will spill over in all the other areas of your marriage too."
+                />
+            <TextView
+                android:textStyle="bold"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/id6"
+                android:layout_below="@+id/id5"
+                android:textSize="25dp"
+                android:textColor="@android:color/black"
+                android:text="Makes your spouse feel loved:"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textSize="17dp"
+                android:id="@+id/id7"
+                android:layout_below="@+id/id6"
+                android:textColor="@android:color/black"
+               android:text="There is a deep connection for the wife after having sex, but for the husband, there is so much more happening.  Usually, men feel the most loved after being physically loved by their spouse. Especially if their love language is physical touch. If you want to learn more about love languages here is a great book: The Five Love Languages by Gary Chapman.
+
+Therefore, it’s unhealthy for relationships when women use sex as a tool to get what they want or to punish their husbands. When that kind of behavior is happening, there is no real underlying connection to each other. There is no understanding of what that truly feels like for your spouse. Continuous rejection of sexual intimacy in marriage makes your spouse feel unwanted and unloved. Sex is meant to be something that pulls you together, not as a manipulation tool.
+
+If you continually reject your spouse when it comes to sex, there will be major issues in your marriage. Rejecting being physically intimate with your spouse tells them that you do not desire them and do not want to be with them. On the other hand, when sex is made a priority, both you and your spouse will feel more loved. I dare you to try to make love to your spouse today!
+
+Sexual intimacy is such a gift in marriage. It shouldn’t be viewed just as sex. When you and your spouse put lovemaking higher on the ladder in your marriage, you will both be happier and healthier. What is stopping you from doing that today? Maybe sit your spouse down and have an open conversation about your sex life today!" />
+
+
+
+
+        </RelativeLayout>
+
+
+    </ScrollView>
+
+</RelativeLayout>

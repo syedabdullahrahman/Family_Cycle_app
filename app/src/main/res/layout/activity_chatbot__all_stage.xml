@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.user.familycyclefinal.Chatbot_AllStageActivity">
+
+
+   <ScrollView
+       android:layout_width="match_parent"
+       android:layout_height="match_parent"
+       android:padding="10dp"
+       >
+
+       <RelativeLayout
+           android:paddingTop="10dp"
+           android:layout_width="match_parent"
+           android:layout_height="match_parent">
+
+           <ImageView
+               android:paddingBottom="10dp"
+               android:layout_width="match_parent"
+               android:layout_height="110dp"
+               android:layout_alignParentTop="true"
+               android:layout_centerHorizontal="true"
+               android:baselineAlignBottom="true"
+               android:src="@drawable/micophone"
+               android:id="@+id/micro"
+               />
+           <TextView
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:id="@+id/tt"
+               android:layout_below="@+id/micro"
+               android:text="Press here to say something"
+               android:textSize="18dp"
+               android:paddingTop="10dp"
+               android:paddingBottom="10dp"
+               android:textAlignment="center"
+               android:textColor="#196F3D"/>
+
+           <TextView
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:id="@+id/or"
+               android:layout_below="@+id/tt"
+               android:text=" 'OR' "
+               android:textStyle="bold"
+               android:textSize="28dp"
+               android:paddingTop="10dp"
+               android:paddingBottom="10dp"
+               android:textAlignment="center"
+               android:textColor="#A93226"/>
+
+
+           <AutoCompleteTextView
+               android:layout_width="match_parent"
+               android:layout_height="100dp"
+               android:id="@+id/textlikho"
+               android:layout_below="@+id/or"
+               android:textAlignment="center"
+               android:hint="Write your question here...."
+               android:textSize="20dp"
+               android:textStyle="bold"
+               android:textColor="@android:color/holo_red_dark"
+               android:background="@drawable/side_nav_bar" />
+
+           <Button
+               android:id="@+id/submit"
+               android:layout_width="100dp"
+               android:layout_height="50dp"
+               android:layout_below="@+id/textlikho"
+               android:layout_centerHorizontal="true"
+               android:layout_marginTop="18dp"
+               android:background="#196F3D"
+               android:text="Submit"
+               android:onClick="querybuttonClicked"
+               android:textColor="@android:color/white"
+               android:textSize="20dp"
+               android:textStyle="bold"
+               android:textAlignment="center"/>
+
+           <TextView
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:id="@+id/anstitle"
+               android:layout_below="@+id/submit"
+               android:paddingLeft="5dp"
+               android:text="Answer: "
+               android:textSize="25dp"
+               android:textStyle="bold"
+               android:textColor="#D35400"/>
+           <TextView
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:id="@+id/answerappear"
+               android:layout_below="@+id/anstitle"
+               android:paddingLeft="5dp"
+               android:text="Answer will appear here "
+               android:textSize="20dp"
+               android:textStyle="bold"
+               android:textColor="#212F3D"/>
+       </RelativeLayout>
+
+
+   </ScrollView>
+
+
+
+</RelativeLayout>
+

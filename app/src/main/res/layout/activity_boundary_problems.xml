@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.user.familycyclefinal.After_Marriage.BoundaryProblems">
+
+
+
+    <TextView
+        android:paddingTop="10dp"
+        android:id="@+id/boundary"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="#6C3483"
+        android:text="Boundary Problems"
+        android:textColor="@android:color/white"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:textSize="25dp"/>
+    <ScrollView
+        android:layout_below="@+id/boundary"
+        android:background="#AED6F1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="10dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textSize="17dp"
+                android:id="@+id/intro"
+                android:textColor="@android:color/black"
+                android:text=" For the past two years, divorce has increased 20 per cent annually in many countries. In the United States, the divorce rate is now more than 50 per cent. I have counseled many families who were either in the divorce proceedings or were single-family divorcees and have experienced first-hand pain and suffering brought about by divorce. The most notable is the trauma on both parents and children as a result of fights and arguments in the family.
+
+First and foremost, the foundation of marriage is love. Marriage is the merge of care, needs, partnership, and values between husband and wife. Such a union will overcome suffering, being immature, and selfishness. Love is the core of marriage. However, love is not enough. Marriage needs other elements to make it grow stronger.
+
+Liberty and responsibility are such elements of importance. When a husband and wife can express their ideas freely, they will love each other with freedom. When they don’t feel free, they will live in fear and lack of security. As a result, love will deteriorate.
+
+The U.S. marriage counseling specialist, Dr. John Townsend, wrote a very insightful book entitled Boundaries in Marriage, which reminds couples to set boundaries in marriage because of love. What the book means by “boundaries in marriage” is for couples to strive for self-control so that they may love each other more. Boundaries in a marriage are not meant to control others but rather to be responsible so that couples know how to protect themselves and also have the abilities to love others.
+
+Boundaries in a marriagea are meant to provide a balanced, ideal environment of freedom and responsibility, and to reinforce love for each other by cultivating a psychological boundary of security. Dr. Townsend also reminds couples to avoid misusing these boundaries. Marriage is variable. No matter how hard one tries, it is not an easy task. Personalities will collide. Since that is inevitable, why not choose a rational way to deal with any hurt feelings so that the experience may benefit both parties?
+
+A number of principles proposed by Dr. Townsend include:"
+
+                />
+
+
+            <TextView
+                android:textStyle="bold"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/id2"
+                android:layout_below="@+id/intro"
+                android:textSize="25dp"
+                android:textColor="@android:color/black"
+                android:text="DO NOT COMPENSATE FOR YOUR SPOUSE’S ACTION:" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textSize="17dp"
+                android:id="@+id/id3"
+                android:layout_below="@+id/id2"
+                android:textColor="@android:color/black"
+                android:text="We must take responsibility for our own actions. Making your spouse responsible for his own actions helps him grow in maturity. Do not pay his credit card bills that are over limit. Do not try to cheer him up when he is in a bad mood. Do not call in sick on his behalf after he has had a party overnight. Doing so will make him less willing to grow. We ought to be responsible for our spouse rather than take responsibility for our spouse. Couples ought to carry each other in their family life, however they should not take responsibility for the other party’s feelings as feelings are personal and each needs to learn how to deal with them." />
+
+            <TextView
+                android:textStyle="bold"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/id4"
+                android:layout_below="@+id/id3"
+                android:textSize="25dp"
+                android:textColor="@android:color/black"
+                android:text="DO NOT TRY TO CHANGE YOUR SPOUSE:" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textSize="17dp"
+                android:id="@+id/id5"
+                android:layout_below="@+id/id4"
+                android:textColor="@android:color/black"
+                android:text=" We don’t have the capability to change our spouse and mold him into someone we expect him to be. We don’t even have the ability to transform him into someone we want. Since we cannot change our spouse, what else can we do? We ought to admit our fault and repent from the damage we have committed in our marriage. We ought to change ourselves so that we have a sustainable marriage. Rarely does one party alone cause marital problems while the other party bears no responsibility. Most likely, both parties shoulder the responsibility." />
+
+            <TextView
+                android:textStyle="bold"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/id6"
+                android:layout_below="@+id/id5"
+                android:textSize="25dp"
+                android:textColor="@android:color/black"
+                android:text="LEARN TO CHANGE YOURSELF:" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textSize="17dp"
+                android:id="@+id/id7"
+                android:layout_below="@+id/id6"
+                android:textColor="@android:color/black"
+                android:text=" Nonetheless, we are capable of self-examining and transforming ourselves in our marriage. If we want the other party to respect our boundaries, we ought to respect his boundaries. We commit mistakes by making too many assumptions. It is not right to presume that he will obey you if he loves you. Oftentimes, we are turned off and feel we are not loved. For example, say a husband refuses to take a walk with his wife simply because he wants rest at that moment. She may interpret that as him not wishing to spend time with her. That is not his intent at all. He simply needs space to rest and relax. Thus there is a quandary when others misinterpret our actions or intents. On the one hand, we desire to preserve our own freedom. We don’t want others to squeeze into our free space. On the other, we desire intimacy." />
+
+            <TextView
+                android:textStyle="bold"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/id8"
+                android:layout_below="@+id/id7"
+                android:textSize="25dp"
+                android:textColor="@android:color/black"
+                android:text="COUPLES SHOULD ACTIVELY SET BOUNDARIES:" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textSize="17dp"
+                android:id="@+id/id9"
+                android:layout_below="@+id/id8"
+                android:textColor="@android:color/black"
+                android:text="Speak the truth with love, set the goal, and solve the problems so that both husband and wife can grow. Don’t ever expect others to take the first step, but rather take the initiative on your own. The goal of setting boundaries in your marriage is to make the relationship work better. Divorce can never become the first boundary. The first boundary ought to be set while the marriage is intact. If that didn’t happen, then an attempt to set boundaries must begin. However, it takes two to set them. Unless the other party ceases to damage the relationship, the first party needs to reserve his or her rights in the marriage by setting boundaries to protect themselves. This is a positive thing.
+
+Longing for resolution does not involve suffering from one’s own actions in a marriage, but rather a desire to save the shattered relationship. In many cases, when a wife sets the correct boundaries, her husband usually relents after witnessing the change in her attitude. Thus, an almost certain divorce can be avoided" />
+
+
+
+        </RelativeLayout>
+
+
+    </ScrollView>
+
+
+</RelativeLayout>

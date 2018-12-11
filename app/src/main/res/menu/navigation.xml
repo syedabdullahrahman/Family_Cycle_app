@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_dashboard"
+        android:icon="@drawable/ic_format_list_bulleted_black_24dp"
+        android:title="Health tips"
+
+        />
+
+    <item
+        android:id="@+id/navigation_notifications"
+        android:icon="@drawable/ic_featured_play_list_black_24dp"
+        android:title="Articles" />
+
+    <item
+        android:id="@+id/camera_launch"
+        android:icon="@drawable/ic_add_a_photo_black_24dp"
+        android:title="Camera"
+        />
+
+    <item
+        android:id="@+id/navigation_query"
+        android:icon="@drawable/ic_live_help_black_24dp"
+        android:title="Query"
+        />
+    <item
+        android:id="@+id/chat_bot"
+        android:icon="@drawable/ic_chat_black_24dp"
+        android:title="ChatBot"
+        />
+
+
+
+</menu>

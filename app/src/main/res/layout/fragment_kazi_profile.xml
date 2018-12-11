@@ -1,0 +1,273 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingTop="10dp"
+    android:paddingLeft="10dp"
+    android:paddingRight="3dp"
+    tools:context="com.example.user.familycyclefinal.Kazi.KaziProfileFragment">
+
+  <RelativeLayout
+      android:layout_width="match_parent"
+      android:layout_height="800dp">
+
+      <TextView
+          android:id="@+id/textView36"
+          android:layout_width="300dp"
+          android:layout_height="wrap_content"
+          android:layout_alignParentLeft="true"
+          android:layout_alignParentStart="true"
+          android:layout_alignParentTop="true"
+          android:text="       Profile"
+          android:textAlignment="center"
+          android:textColor="#196F3D"
+          android:textSize="32dp"
+          android:textStyle="bold" />
+
+      <ImageView
+          android:id="@+id/imageView23"
+          android:layout_width="80dp"
+          android:layout_height="60dp"
+          android:layout_alignParentTop="true"
+          android:layout_toEndOf="@+id/textView36"
+          android:layout_toRightOf="@+id/textView36"
+          android:src="@drawable/proedit" />
+
+      <ImageView
+          android:id="@+id/imageView24"
+          android:layout_width="125dp"
+          android:layout_height="125dp"
+          android:layout_below="@+id/imageView23"
+          android:layout_centerHorizontal="true"
+          android:layout_marginTop="26dp"
+          android:src="@drawable/signup_kazi" />
+
+
+      <TextView
+          android:id="@+id/name"
+          android:layout_width="130dp"
+          android:layout_height="50dp"
+          android:layout_alignParentLeft="true"
+          android:layout_alignParentStart="true"
+          android:layout_below="@+id/imageView24"
+          android:layout_marginTop="35dp"
+          android:text="Name :"
+          android:textColor="@android:color/holo_red_dark"
+          android:textSize="15dp"
+          android:textStyle="bold" />
+
+      <TextView
+          android:layout_width="130dp"
+          android:layout_height="50dp"
+          android:id="@+id/educationalbackground"
+          android:text="Educational Background :"
+          android:textStyle="bold"
+          android:textColor="@android:color/holo_red_dark"
+          android:textSize="15dp"
+          android:layout_below="@+id/name" />
+
+      <TextView
+          android:layout_width="130dp"
+          android:layout_height="50dp"
+          android:id="@+id/dob"
+          android:textStyle="bold"
+          android:text="Date of Birth : "
+          android:textColor="@android:color/holo_red_dark"
+          android:textSize="15dp"
+          android:layout_below="@+id/educationalbackground" />
+
+
+
+      <TextView
+          android:id="@+id/kazirname"
+          android:layout_width="220dp"
+          android:layout_height="50dp"
+          android:layout_above="@+id/kaziredu"
+          android:layout_toEndOf="@+id/name"
+          android:layout_toRightOf="@+id/idreg_num"
+          android:text=""
+          android:textColor="@android:color/black"
+          android:textSize="15dp" />
+
+      <TextView
+          android:id="@+id/kaziredu"
+          android:layout_width="220dp"
+          android:layout_height="50dp"
+          android:layout_alignBaseline="@+id/educationalbackground"
+          android:layout_alignBottom="@+id/educationalbackground"
+          android:layout_toEndOf="@+id/educationalbackground"
+          android:layout_toRightOf="@+id/educationalbackground"
+          android:text=""
+          android:textSize="15dp"
+          android:textColor="@android:color/black"/>
+
+      <TextView
+          android:id="@+id/kazidob"
+          android:layout_width="220dp"
+          android:layout_height="50dp"
+          android:layout_alignBaseline="@+id/dob"
+          android:layout_alignBottom="@+id/dob"
+          android:layout_toEndOf="@+id/dob"
+          android:layout_toRightOf="@+id/dob"
+          android:text=""
+          android:textSize="15dp"
+          android:textColor="@android:color/black"/>
+
+      <TextView
+          android:layout_width="130dp"
+          android:layout_height="50dp"
+          android:id="@+id/nid"
+          android:textStyle="bold"
+          android:text="NID Number : "
+          android:textColor="@android:color/holo_red_dark"
+          android:textSize="15dp"
+          android:layout_below="@+id/dob" />
+
+      <TextView
+          android:id="@+id/kazinid"
+          android:layout_width="220dp"
+          android:layout_height="50dp"
+          android:layout_below="@+id/dob"
+          android:layout_toEndOf="@+id/dob"
+          android:layout_toRightOf="@+id/dob"
+          android:text=""
+          android:textSize="15dp"
+          android:textColor="@android:color/black"/>
+
+
+
+
+      <TextView
+          android:layout_width="130dp"
+          android:layout_height="50dp"
+          android:id="@+id/tin"
+          android:textStyle="bold"
+          android:text="TIN Number : "
+          android:textColor="@android:color/holo_red_dark"
+          android:textSize="15dp"
+          android:layout_below="@+id/nid" />
+
+      <TextView
+          android:id="@+id/kazitin"
+          android:layout_width="220dp"
+          android:layout_height="50dp"
+          android:layout_below="@+id/kazinid"
+          android:layout_toEndOf="@+id/tin"
+          android:layout_toRightOf="@+id/tin"
+          android:text=""
+          android:textSize="15dp"
+          android:textColor="@android:color/black"/>
+
+
+      <TextView
+          android:layout_width="130dp"
+          android:layout_height="50dp"
+          android:id="@+id/emailadd"
+          android:textStyle="bold"
+          android:text="Email Address : "
+          android:textColor="@android:color/holo_red_dark"
+          android:textSize="15dp"
+          android:layout_below="@+id/tin" />
+
+      <TextView
+          android:id="@+id/kaziremail"
+          android:layout_width="220dp"
+          android:layout_height="50dp"
+          android:layout_below="@+id/kazitin"
+          android:layout_toEndOf="@+id/emailadd"
+          android:layout_toRightOf="@+id/emailadd"
+          android:text=""
+          android:textSize="15dp"
+          android:textColor="@android:color/black"/>
+
+      <TextView
+          android:layout_width="130dp"
+          android:layout_height="50dp"
+          android:id="@+id/licensenum"
+          android:textStyle="bold"
+          android:text="License Number : "
+          android:textColor="@android:color/holo_red_dark"
+          android:textSize="15dp"
+          android:layout_below="@+id/emailadd" />
+
+      <TextView
+          android:id="@+id/kazirlicense"
+          android:layout_width="220dp"
+          android:layout_height="50dp"
+          android:layout_below="@+id/kaziremail"
+          android:layout_toEndOf="@+id/licensenum"
+          android:layout_toRightOf="@+id/licensenum"
+          android:text=""
+          android:textSize="15dp"
+          android:textColor="@android:color/black"/>
+
+      <TextView
+          android:layout_width="130dp"
+          android:layout_height="50dp"
+          android:id="@+id/officeadd"
+          android:textStyle="bold"
+          android:text="Office Address : "
+          android:textColor="@android:color/holo_red_dark"
+          android:textSize="15dp"
+          android:layout_below="@+id/licensenum" />
+
+      <TextView
+          android:id="@+id/kaziroffice"
+          android:layout_width="220dp"
+          android:layout_height="50dp"
+          android:layout_below="@+id/kazirlicense"
+          android:layout_toEndOf="@+id/officeadd"
+          android:layout_toRightOf="@+id/officeadd"
+          android:text=""
+          android:textSize="15dp"
+          android:textColor="@android:color/black"/>
+
+
+      <TextView
+          android:layout_width="130dp"
+          android:layout_height="50dp"
+          android:id="@+id/preferedarea"
+          android:textStyle="bold"
+          android:text="Prefered Area : "
+          android:textColor="@android:color/holo_red_dark"
+          android:textSize="15dp"
+          android:layout_below="@+id/officeadd" />
+
+      <TextView
+          android:id="@+id/kazirarea"
+          android:layout_width="220dp"
+          android:layout_height="50dp"
+          android:layout_below="@+id/kaziroffice"
+          android:layout_toEndOf="@+id/preferedarea"
+          android:layout_toRightOf="@+id/preferedarea"
+          android:text=""
+          android:textSize="15dp"
+          android:textColor="@android:color/black"/>
+
+      <TextView
+          android:layout_width="130dp"
+          android:layout_height="50dp"
+          android:id="@+id/contactnumber"
+          android:textStyle="bold"
+          android:text="Contact Number : "
+          android:textColor="@android:color/holo_red_dark"
+          android:textSize="15dp"
+          android:layout_below="@+id/preferedarea" />
+
+      <TextView
+          android:id="@+id/kazirnumber"
+          android:layout_width="220dp"
+          android:layout_height="50dp"
+          android:layout_below="@+id/kazirarea"
+          android:layout_toEndOf="@+id/contactnumber"
+          android:layout_toRightOf="@+id/contactnumber"
+          android:text=""
+          android:textSize="15dp"
+          android:textColor="@android:color/black"/>
+
+
+
+  </RelativeLayout>
+
+</ScrollView>

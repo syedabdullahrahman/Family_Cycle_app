@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.user.familycyclefinal.AboutActivity">
+
+    <TextView
+        android:paddingTop="10dp"
+        android:id="@+id/boundary"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="#0E6655"
+        android:text="About This App"
+        android:textColor="@android:color/white"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:textSize="25dp"/>
+    <ScrollView
+        android:layout_below="@+id/boundary"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#A9DFBF"
+        android:padding="10dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/intro"
+                android:textSize="17dp"
+                android:textColor="@android:color/black"
+                android:text="The purpose of this app is to digitalize the existing analog marriage system and solving several problems by implementing a featured application in different stages of conjugal life for a married couple. As existing marriage system is analog system and all the document are written manually and the process is also done manually couple face varieties of problems when ever they need some documents related to their marriage. Also sometimes there have been different case of fake documents and sometimes for lack of knowledge there have been cases of charging more money for marriage than that of decided from government. The application is implemented by addressing this problems solutions so that no one will misled in this matters and also when needed all the documents can be printed form anywhere. Also validation and authentication of the documents will be more easy and will be just one click away.Also married couple will know all the numeration from this applications.
+After marriage to birth of baby and bringing up the infant, couple also faces various difficulties and challenges that are not easy to share with others or they don't get the desired community to share there difficulties. This app offer them a suitable solution to help them with their difficulties and give them their desired audience to share their problems and difficulties. This app is also offering them an artificial intelligent based assistant that can Help them with their quarries and consult them with giving answers.
+"/>
+
+
+
+
+        </RelativeLayout>
+
+
+    </ScrollView>
+
+
+
+</RelativeLayout>
+

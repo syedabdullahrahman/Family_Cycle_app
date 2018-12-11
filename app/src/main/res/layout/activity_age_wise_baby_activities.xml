@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.user.familycyclefinal.BabyCare.AgeWiseBabyActivities">
+
+
+    <TextView
+        android:paddingTop="10dp"
+        android:id="@+id/boundary"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:background="#0E6655"
+        android:text="Newborn Baby Activities (According to Age) "
+        android:textColor="@android:color/white"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:textSize="25dp"/>
+    <ScrollView
+        android:layout_below="@+id/boundary"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#A9DFBF"
+        android:padding="10dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/intro"
+                android:textSize="17dp"
+                android:textColor="@android:color/black"
+                android:text="
+Tracking a moving object with their eyes: around 2 months
+ cooing: around 2 to 4 months
+raising head while lying on tummy: 3 to 4 months
+grabbing at objects: 3 to 5 months
+rolling over: around 4 to 6 months
+developing colour vision: around 4 to 6 months
+sitting alone without support: around 5 to 6 months
+starting solid foods: around 6 months
+pulling up: around 6 to 9 months
+crawling: around 6 to 9 months
+laughing, babbling, and making raspberry sounds: around 6 to 9 months
+imitating sounds (and perhaps saying 'Mama' and 'Dada' without knowing what they mean): around 9 to 12 months
+trying to walk or taking their first steps: around 9 to 12 months (may be later)
+understanding several words: around 12 months"/>
+
+
+
+
+
+        </RelativeLayout>
+
+
+    </ScrollView>
+
+
+</RelativeLayout>
+

@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.user.familycyclefinal.Family_Planning.ImproveWomenHealth">
+
+    <TextView
+        android:paddingTop="10dp"
+        android:id="@+id/boundary"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="#943126"
+        android:text="Improve Women's Health"
+        android:textColor="@android:color/white"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:textSize="25dp"/>
+    <ScrollView
+        android:layout_below="@+id/boundary"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#FADBD8"
+        android:padding="10dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/intro"
+                android:textSize="17dp"
+                android:textColor="@android:color/black"
+                android:text="Women experience unique challenges of  health care and are more likely to be diagnosed with certain diseases than men. Chronic diseases and conditions—such as heart disease, cancer and diabetes—are the leading causes of death for women.
+Some health care tips to improve women's health are discussed below:"/>
+
+            <TextView
+                android:textStyle="bold"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/id2"
+                android:layout_below="@+id/intro"
+                android:textSize="25dp"
+                android:textColor="@android:color/black"
+                android:text="Zapping stress:" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textSize="17dp"
+                android:id="@+id/id3"
+                android:layout_below="@+id/id2"
+                android:textColor="@android:color/black"
+                android:text="Stress can have significant health consequences, from infertility to higher risks of depression, anxiety, and heart disease. Finding stress-reduction method that works for her and stick with it is very essential for a women" />
+
+            <TextView
+                android:textStyle="bold"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/id4"
+                android:layout_below="@+id/id3"
+                android:textSize="25dp"
+                android:textColor="@android:color/black"
+                android:text="Don't “OD” on calcium :" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textSize="17dp"
+                android:id="@+id/id5"
+                android:layout_below="@+id/id4"
+                android:textColor="@android:color/black"
+                android:text="Too much absorbed calcium can increase the risk of kidney stones and may even increase the risk of heart disease. If a women is under 50, she should shoot for 1,000 milligrams per day, while over-50 women should be getting 1,200 milligrams per day.Milk, salmon, and almonds are good foods that carry calcium." />
+
+            <TextView
+                android:textStyle="bold"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/id6"
+                android:layout_below="@+id/id5"
+                android:textSize="25dp"
+                android:textColor="@android:color/black"
+                android:text="Do more Cardio :" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textSize="17dp"
+                android:id="@+id/id7"
+                android:layout_below="@+id/id6"
+                android:textColor="@android:color/black"
+                android:text="Women need a mix of cardio and resistance or weight-bearing exercise at least three to five times a week to help prevent osteoporosis, heart disease, cancer, and diabetes." />
+
+            <TextView
+                android:textStyle="bold"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/id8"
+                android:layout_below="@+id/id7"
+                android:textSize="25dp"
+                android:textColor="@android:color/black"
+                android:text="Think about fertility :" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textSize="17dp"
+                android:id="@+id/id9"
+                android:layout_below="@+id/id8"
+                android:textColor="@android:color/black"
+                android:text=" While many women have no problem getting pregnant in their late 30s and even into their early 40s, a woman's fertility may start to decline as early as 32. So if one want to have kids, she should talk with doctor about options, like freezing her eggs." />
+
+
+
+            <TextView
+                android:textStyle="bold"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/id10"
+                android:layout_below="@+id/id9"
+                android:textSize="25dp"
+                android:textColor="@android:color/black"
+                android:text="Appreciate birth control:" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textSize="17dp"
+                android:id="@+id/id11"
+                android:layout_below="@+id/id10"
+                android:textColor="@android:color/black"
+                android:text="Birth control gets a bad rap, but not only can it keep one's from getting pregnant before she is ready, studies show it can lower the risk of uterine and ovarian cancer as well as regulate her cycle." />
+
+            <TextView
+                android:textStyle="bold"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/id12"
+                android:layout_below="@+id/id11"
+                android:textSize="25dp"
+                android:textColor="@android:color/black"
+                android:text=" Have good sex: " />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textSize="17dp"
+                android:id="@+id/id13"
+                android:layout_below="@+id/id12"
+                android:textColor="@android:color/black"
+                android:text=" Sex reduces stress and may lower the risk of chronic disease but only if when a women enjoy it. If anything prevents her from sexual fulfillment, such as dryness or pain, she should talk to her doctor to find a solution." />
+
+            <TextView
+                android:textStyle="bold"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/id14"
+                android:layout_below="@+id/id13"
+                android:textSize="25dp"
+                android:textColor="@android:color/black"
+                android:text="Get more Sleep:" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textSize="17dp"
+                android:id="@+id/id15"
+                android:layout_below="@+id/id14"
+                android:textColor="@android:color/black"
+                android:text="Sleep needs differ, but if a women has trouble getting out of bed, tire easily, or having trouble of concentrating, she likely doesn't getting enough. Recent studies suggest this can put her at greater risk of heart disease and psychological problems." />
+
+            <TextView
+                android:textStyle="bold"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/id16"
+                android:layout_below="@+id/id15"
+                android:textSize="25dp"
+                android:textColor="@android:color/black"
+                android:text="Consider Genetic Testing:" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textSize="17dp"
+                android:id="@+id/id17"
+                android:layout_below="@+id/id16"
+                android:textColor="@android:color/black"
+                android:text="Doctors can now screen people with a family history of breast cancer, ovarian cancer, and chronic diseases to assess their risk -- and then consider preventive measures. So a women should talk to her doctor." />
+
+
+
+
+
+
+        </RelativeLayout>
+
+
+    </ScrollView>
+
+
+
+</RelativeLayout>

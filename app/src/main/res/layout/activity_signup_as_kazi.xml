@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#2ECC71"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.user.familycyclefinal.SignUpAsKazi">
+
+
+    <EditText
+        android:id="@+id/kaziUserName"
+        android:drawableTint="@android:color/background_dark"
+        android:padding="5dp"
+        android:layout_width="320dp"
+        android:layout_height="55dp"
+        android:layout_alignLeft="@+id/kaziSignUp"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/kaziSignUp"
+        android:layout_marginTop="83dp"
+        android:background="@drawable/side_nav_bar"
+        android:drawableLeft="@drawable/ic_action_man"
+        android:ems="10"
+        android:hint="Enter Your username"
+        android:inputType="textPersonName"
+        android:textAlignment="center" />
+
+    <EditText
+        android:id="@+id/kaziEmail"
+        android:drawableTint="@android:color/background_dark"
+        android:padding="5dp"
+        android:drawableLeft="@drawable/ic_action_email"
+        android:textAlignment="center"
+        android:layout_width="320dp"
+        android:layout_height="55dp"
+        android:layout_alignEnd="@+id/kaziUserName"
+        android:layout_alignRight="@+id/kaziUserName"
+        android:layout_below="@+id/kaziUserName"
+        android:layout_marginTop="30dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="Enter Your email"
+        android:background="@drawable/side_nav_bar"
+        tools:ignore="TextFields" />
+
+    <EditText
+        android:id="@+id/kaziPassword"
+        android:drawableTint="@android:color/background_dark"
+        android:padding="5dp"
+        android:drawableLeft="@drawable/ic_action_pass"
+        android:background="@drawable/side_nav_bar"
+        android:layout_width="320dp"
+        android:layout_height="55dp"
+        android:textAlignment="center"
+        android:layout_alignEnd="@+id/kaziEmail"
+        android:layout_alignRight="@+id/kaziEmail"
+        android:layout_below="@+id/kaziEmail"
+        android:layout_marginTop="33dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="Enter Your password"
+        tools:ignore="TextFields" />
+
+    <EditText
+        android:id="@+id/kaziLicenceNumber"
+        android:drawableTint="@android:color/background_dark"
+        android:padding="5dp"
+        android:drawableLeft="@drawable/ic_action_license"
+        android:background="@drawable/side_nav_bar"
+        android:layout_width="320dp"
+        android:layout_height="55dp"
+        android:textAlignment="center"
+        android:layout_alignLeft="@+id/kaziPassword"
+        android:layout_alignStart="@+id/kaziPassword"
+        android:layout_below="@+id/kaziPassword"
+        android:layout_marginTop="38dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="Enter Your license number"
+        tools:ignore="TextFields"/>
+
+
+    <Button
+        android:id="@+id/kaziSignUp"
+        android:layout_width="320dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/kaziLicenceNumber"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="53dp"
+        android:background="@drawable/oval"
+        android:text="sign up" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="29dp"
+        android:text="Sign up as Quazi"
+        android:textAlignment="center"
+        android:textColor="@android:color/holo_red_light"
+        android:textSize="25dp"
+        android:textStyle="bold" />
+
+
+</RelativeLayout>

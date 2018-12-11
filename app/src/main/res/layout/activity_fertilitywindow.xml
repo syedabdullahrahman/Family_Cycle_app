@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.user.familycyclefinal.Family_Planning.Fertilitywindow">
+
+
+    <TextView
+        android:paddingTop="10dp"
+        android:id="@+id/boundary"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="#943126"
+        android:text="Fertility Analysis and Window"
+        android:textColor="@android:color/white"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:textSize="25dp"/>
+    <ScrollView
+        android:layout_below="@+id/boundary"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#FADBD8"
+        android:padding="10dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/intro"
+                android:textSize="17dp"
+                android:textColor="@android:color/black"
+                android:text="Your fertile window is the day that you ovulate and the five days leading up to that day. The last day of your fertile window, ovulation, is the phase of your cycle when one of your ovaries releases an egg into a fallopian tube, where it awaits the company of one of your partner’s sperm for fertilization. Once released, an egg only has a lifespan of about 24 hours to be fertilized. If the egg is not fertilized, it disintegrates, triggering your next period.
+
+Even though the egg is only viable for 24 hours, your partner’s sperm are able to survive and fertilize it for up to five days after intercourse, so any intercourse within five days of ovulation could result in conception. However, the closer to ovulation your intercourse is, the higher the likelihood of conception will be."/>
+
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/img1"
+                android:layout_below="@+id/intro"
+                android:src="@drawable/fertility"
+                />
+
+            <TextView
+                android:textStyle="bold"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/id2"
+                android:layout_below="@+id/img1"
+                android:textSize="25dp"
+                android:textColor="@android:color/black"
+                android:text="When is the fertile window?" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textSize="17dp"
+                android:id="@+id/id3"
+                android:layout_below="@+id/id2"
+                android:textColor="@android:color/black"
+                android:text="Old rules of thumb will tell you that ovulation occurs about halfway through a cycle, or 14 days after you get your period. However, time of ovulation can differ greatly from woman to woman and even cycle to cycle, depending on the length and consistency of a woman’s cycle and any outside influencers like stress or malnutrition. Because there are more factors at play here than just time, we need to look beyond just period data to understand when ovulation occurs." />
+
+            <TextView
+                android:textStyle="bold"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/id4"
+                android:layout_below="@+id/id3"
+                android:textSize="25dp"
+                android:textColor="@android:color/black"
+                android:text="Identifying the fertile window :" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textSize="17dp"
+                android:id="@+id/id5"
+                android:layout_below="@+id/id4"
+                android:textColor="@android:color/black"
+                android:text="In the past, people have relied on a number of different methods to predict ovulation, but Ovia Fertility can pinpoint it with simple data logging. Enter your fertility data - basal body temperature, cervical fluid, physical symptoms, ovulation test - each cycle, and Ovia will analyze them and make accurate predicitons about your fertile window." />
+
+
+
+        </RelativeLayout>
+
+
+    </ScrollView>
+
+
+
+</RelativeLayout>

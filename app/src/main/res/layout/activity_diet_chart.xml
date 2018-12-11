@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back1"
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp"
+    tools:context="com.example.user.familycyclefinal.DuringPragnancy.meditation_dp">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:paddingTop="10dp"
+            android:layout_height="68dp"
+            android:text="Protiens"
+            android:textSize="35dp"
+            android:textColor="#EEEBE1"
+            android:textStyle="bold"/>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:layout_gravity="center_vertical|right"
+            android:textSize="20dp"
+            android:paddingBottom="10dp"
+            android:textColor="@android:color/white"
+            android:text=" Proteins are essential for the healthy growth of the foetus and to maintain the mother’s health. Proteins form the building blocks for blood, bones, organs, muscles and tissues. Inadequate protein intake can lead to severe malnourishment. Your daily diet should have an additional 0.5g of proteins in the first trimester, 6.9g in the second and 22.7g in the third trimester. So you need about 78g of proteins in the third trimester."
+            />
+
+        <ImageView
+            android:paddingTop="10dp"
+            android:paddingRight="10dp"
+            android:layout_width="350dp"
+            android:layout_height="200dp"
+            android:src="@drawable/protien"/>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:paddingTop="10dp"
+            android:layout_height="68dp"
+            android:text="Folic acid and Folate"
+            android:textSize="35dp"
+            android:textColor="#EEEBE1"
+            android:textStyle="bold"/>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="215dp"
+            android:layout_gravity="center_vertical|right"
+            android:textSize="20dp"
+            android:paddingBottom="10dp"
+            android:textColor="@android:color/white"
+            android:text="Folic Acid is very essential for preventing neural tube defect, serious abnormalities of the spinal cord and brain. It is also helpful in increasing birth weight, synthesis of haemoglobin and reducing the incidence of pre-mature births. The recommended allowance is 500micro g/day"
+            />
+
+        <ImageView
+            android:paddingTop="10dp"
+            android:paddingRight="10dp"
+            android:layout_width="350dp"
+            android:layout_height="220dp"
+            android:src="@drawable/folicacid"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:paddingTop="10dp"
+            android:layout_height="68dp"
+            android:text="Iron"
+            android:textSize="35dp"
+            android:textColor="#EEEBE1"
+            android:textStyle="bold"/>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="440dp"
+            android:paddingRight="10dp"
+            android:layout_gravity="center_vertical|right"
+            android:textSize="20dp"
+            android:paddingBottom="10dp"
+            android:textColor="@android:color/white"
+            android:text=" In the form of haemoglobin, Iron is essential to carry oxygen in our blood. During pregnancy the body needs to increase the blood volume to meet the demands of the growing foetus, hence more Iron in the diet is essential. Anemia is one of the leading causes of premature birth and low birth weight. Indian women need 35mg/d of Iron during pregnancy. Non vegetarian sources are considered better as the iron absorption is more enhanced. To improve iron absorption from vegetarian sources, adding a Vitamin C source helps. So squeezing some lemon on the food, or adding a tomato salad or just an amla improves absorption."
+            />
+
+        <ImageView
+            android:paddingTop="10dp"
+            android:paddingRight="10dp"
+            android:layout_width="350dp"
+            android:layout_height="320dp"
+            android:src="@drawable/iron"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:paddingTop="10dp"
+            android:layout_height="68dp"
+            android:text="Calcium"
+            android:textSize="35dp"
+            android:textColor="#EEEBE1"
+            android:textStyle="bold"/>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:paddingRight="10dp"
+            android:layout_gravity="center_vertical|right"
+            android:textSize="20dp"
+            android:paddingBottom="10dp"
+            android:textColor="@android:color/white"
+            android:text="Calcium is needed to build healthy bones and teeth of the baby and for the production of calcium rich breast milk and prevention of osteoporosis in the mother. ICMR has listed the daily Calcium requirement for pregnant women at 1200mg. An important factor in choosing the source of calcium is its bioavailability- Milk is one of the best sources of biologically available calcium."
+            />
+
+        <ImageView
+            android:paddingTop="10dp"
+            android:paddingRight="10dp"
+            android:layout_width="370dp"
+            android:layout_height="320dp"
+            android:src="@drawable/calsium"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:paddingTop="10dp"
+            android:layout_height="68dp"
+            android:text="Vitamin"
+            android:textSize="35dp"
+            android:textColor="#EEEBE1"
+            android:textStyle="bold"/>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:layout_gravity="center_vertical|right"
+            android:textSize="20dp"
+            android:paddingBottom="10dp"
+            android:textColor="@android:color/white"
+           android:text="is required for healthy vision, immune function and foetal growth and development. Mothers are susceptible to Vitamin A deficiency particularly in the third trimester because of rapid foetal development and an increase in the blood volume. Including Vitamin A containing foods like animal sources such as milk, butter, egg and fish or Beta carotene rich vegetarian sources in daily diet can help achieve the daily requirement of 800µg of Vitamin A or 6400µg of beta carotene."
+            />
+
+        <ImageView
+            android:paddingTop="10dp"
+            android:paddingRight="10dp"
+            android:layout_width="370dp"
+            android:layout_height="440dp"
+            android:src="@drawable/vitamin"/>
+
+
+
+    </LinearLayout>
+
+</ScrollView>

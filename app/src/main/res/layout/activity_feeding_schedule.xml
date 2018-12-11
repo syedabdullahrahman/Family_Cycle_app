@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.user.familycyclefinal.BabyCare.FeedingSchedule">
+
+
+    <TextView
+        android:paddingTop="10dp"
+        android:id="@+id/boundary"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:background="#0E6655"
+        android:text="New Born Baby's Feeding Schedule"
+        android:textColor="@android:color/white"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:textSize="25dp"/>
+    <ScrollView
+        android:layout_below="@+id/boundary"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#A9DFBF"
+        android:padding="10dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/intro"
+                android:textSize="17dp"
+                android:textColor="@android:color/black"
+                android:text="A baby is considered a newborn from birth until about 3 months of age. During the first 3 months of life, your newborn’s sleep patterns will look nothing like yours – your baby will sleep in short bursts (anywhere from 30 or 45 minutes – 3 or possibly 4 hours), and then eat between sleeps. In this way, newborn’s don’t follow a typical day/night sleep schedule. Their circadian rhythms need time to adjust – in fact, some newborns come out of the womb having their days and nights completely mixed up! This is called day/night confusion, and babies who struggle with it tend to sleep a lot during the day and then wake up frequently at night.
+
+Many parents discover that their newborns are extra sleepy in the first week or two after birth – you may find that you have to wake your newborn to feed, or that your newborn often drifts off during a feeding, before eating her fill. But your newborn will definitely “wake up” within three weeks after birth – at that point, you will start to deal with more wakefulness (in fact, you may start to miss the early weeks of having a super-sleepy newborn!!). A baby cries more often as she gets a bit older, sometimes, depending on temperament. And, thankfully, you will learn quickly how to soothe a crying baby."/>
+
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:id="@+id/img1"
+                android:layout_below="@id/intro"
+                android:src="@drawable/baby_feeding"
+                />
+
+            <TextView
+                android:textStyle="bold"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/id2"
+                android:layout_below="@+id/img1"
+                android:textSize="25dp"
+                android:textColor="@android:color/black"
+                android:text="2-8 Week Old Newborn, Breast Feeding:" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textSize="17dp"
+                android:id="@+id/id3"
+                android:layout_below="@+id/id2"
+                android:textColor="@android:color/black"
+                android:text="(This schedule is best for babies who consume average amounts of breast milk, and for moms who have average breast milk production and storage amounts. Babies who eat smaller amounts, babies with reflux, and moms who produce and store smaller amounts of breastmilk would need a different schedule, as would babies who eat larger amounts per feeding, and moms who produce/store greater amounts of breast milk. Schedules for those scenarios, as well as schedules for older breast-fed newborns, are available in our newborn book, Essential Keys To Your Newborn’s Sleep).
+
+9:00 AM – Wake and Feed*
+10:00 AM – Nap (30-60 minutes)
+11:00 AM – Wake and Feed
+12:30 PM – Nap (30-60 minutes)
+1:30 PM – Wake and Feed
+3:30 PM – Nap (30 – 60 minutes)
+4:30 PM – Wake and Feed
+6:00 PM – Nap (30 – 60 minutes)
+6:30 PM – Wake and Feed
+7:30 PM – Catnap (20 – 30 minutes)
+8:00 PM – Wake and Feed
+9:30 PM – Catnap (20 – 30 minutes)
+10:00 PM – Wake and Feed
+11:30 PM – Feed and Bedtime*
+3:30 AM – Feed and Right back to sleep
+6:30 AM – Feed and Right back to sleep
+
+* – we recommend you make these fixed points in your baby’s schedule. You can read more about this in our article on fixed points in a baby schedule." />
+
+            <TextView
+                android:textStyle="bold"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/id4"
+                android:layout_below="@+id/id3"
+                android:textSize="25dp"
+                android:textColor="@android:color/black"
+                android:text="2-8 Week Old Newborn, Formula Feeding :" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textSize="17dp"
+                android:id="@+id/id5"
+                android:layout_below="@+id/id4"
+                android:textColor="@android:color/black"
+                android:text="(You will see that this schedule outlines longer naps and fewer feedings than the breastfeeding schedule above; this is simply because formula is more difficult for baby to digest, so baby tends to feel fuller longer, and therefore needs slightly fewer feedings. For formula-feeding schedules for older newborns, see our newborn book, Essential Keys To Your Newborn’s Sleep)
+
+9:00 AM – Wake and Feed*
+10:00 AM – Nap (60 – 90 minutes)
+11:30 AM – Wake
+12:30 PM – Feed and Nap (30 – 60 minutes)
+1:30 PM – Wake
+3:00 PM – Feed and Nap (60 – 90 minutes)
+4:30 PM – Wake and Feed
+6:00 PM – Nap (30 – 60 minutes)
+6:30 PM – Wake
+7:30 PM – Feed and Nap (30 – 60 minutes)
+8:30 PM – Wake
+9:30 PM – Nap (30 – 60 minutes)
+10:00 PM – Wake and Feed
+11:30 PM – Feed and Bedtime*
+4:30 AM – Feed and Right back to sleep
+7:30 AM – Feed and Right back to sleep
+
+* – we recommend you make these fixed points in your baby’s schedule. You can read more about this in our article on fixed points in a baby schedule." />
+
+
+        </RelativeLayout>
+
+
+    </ScrollView>
+
+
+</RelativeLayout>

@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back1"
+    android:paddingLeft="10dp"
+    tools:context="com.example.user.familycyclefinal.DuringPragnancy.meditation_dp">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:paddingTop="10dp"
+            android:layout_height="75dp"
+            android:text="Gestational diabetes (GDM):"
+            android:textSize="28dp"
+            android:textColor="#EEEBE1"
+            android:textStyle="bold"/>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="280dp"
+            android:layout_gravity="center_vertical|right"
+            android:textSize="20dp"
+            android:textColor="@android:color/white"
+            android:text="Gestational diabetes mellitus (GDM) is defined as any degree of glucose intolerance with onset or first recognition during pregnancy. Approximately 7% of all pregnancies are complicated by GDM, resulting in more than 200,000 cases annually. The prevalence may range from 1 to 14% of all pregnancies, depending on the population studied and the diagnostic tests employed."
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:text="High blood pressure: "
+            android:textSize="30dp"
+            android:textColor="#EEEBE1"
+            android:textStyle="bold"/>
+
+        <me.biubiubiu.justifytext.library.JustifyTextView
+            android:layout_width="match_parent"
+            android:layout_height="580dp"
+            android:textSize="20dp"
+            android:textColor="@android:color/white"
+           android:text="There are many types of high blood pressures during pregnancy. Like Gestational hypertension that develops after 20 week, chronic hypertension that can occur before pregnancy or before 20 weeks, chronic hypertension with superimposed preeclampsia which occurs in women with chronic hypertension before pregnancy who develop worsening high blood pressure and protein in the urine or other blood pressure related complications during pregnancy. There are also ways to reduce this. They are:
+
+	Eat a healthy diet, and especially limit your sodium intake.
+
+	Take your blood pressure medications the way you are supposed to.
+
+	Keep all your prenatal appointments.
+
+	Stay physically active, although your healthcare provider may prescribe bed rest if you develop preeclampsia
+" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:paddingTop="10dp"
+            android:layout_height="75dp"
+            android:text="Premature rupture of membranes (PROM): "
+            android:textSize="28dp"
+            android:textColor="#EEEBE1"
+            android:textStyle="bold"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="460dp"
+            android:layout_gravity="center_vertical|right"
+            android:textSize="20dp"
+            android:textColor="@android:color/white"
+            android:text="It is the breaking of mother’s water. Known causes of PROM include:
+	Uterine infection, which is a common trigger of pPROM.
+	Overstretching (distension) of the uterus and amniotic sac. Multiple fetuses or too much amniotic fluid (polyhydramnios) are common causes of distension.
+	Trauma, as from a motor vehicle accident
+
+o	Pre-eclamptic toxaemia (PET)
+o	Antepartum haemorrhage (APH): Antepartum haemorrhage (APH) is defined as bleeding from or in to the genital tract, occurring from 24+0 weeks of pregnancy and prior to the birth of the baby.
+o	Eclampsia
+"
+            />
+
+
+    </LinearLayout>
+
+</ScrollView>

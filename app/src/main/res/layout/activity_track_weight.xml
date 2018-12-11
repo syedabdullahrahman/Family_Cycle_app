@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.user.familycyclefinal.Family_Planning.TrackWeight">
+
+    <TextView
+        android:paddingTop="10dp"
+        android:id="@+id/boundary"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="#943126"
+        android:text="Weight gain during pregnancy"
+        android:textColor="@android:color/white"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:textSize="25dp"/>
+    <ScrollView
+        android:layout_below="@+id/boundary"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#FADBD8"
+        android:padding="10dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+            <TextView
+                android:textStyle="bold"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/id2"
+
+                android:textSize="25dp"
+                android:textColor="@android:color/black"
+                android:text="Is weight gain important during pregnancy?" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textSize="17dp"
+                android:id="@+id/id3"
+                android:layout_below="@+id/id2"
+                android:textColor="@android:color/black"
+                android:text="Yes. Gaining the right amount of weight during pregnancy can help protect your health and the health of your baby.
+
+If you gain too little weight during pregnancy, you’re more likely than other women to have a premature baby or a baby with low birthweight. A premature baby is born too early, before 37 weeks of pregnancy. Low birthweight means your baby is born weighing less than 5 pounds, 8 ounces.
+
+If you gain too much weight during pregnancy, you’re more likely than other women to:
+
+Have a premature baby. Premature babies may have health problems at birth and later in life, including being overweight or obese. Being obese means you have an excess amount of body fat.
+Have a baby with fetal macrosomia. This is when your baby is born weighing more than 8 pounds, 13 ounces. Having a baby this large can cause complications, like problems during labor and heavy bleeding after birth.
+Need a cesarean birth (also called c-section). This is surgery in which your baby is born through a cut that your health care provider makes in your belly or uterus.
+Have trouble losing weight after your baby’s birth. This can increase your risk for health conditions like diabetes and high blood pressure. " />
+
+            <TextView
+                android:textStyle="bold"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/id4"
+                android:layout_below="@+id/id3"
+                android:textSize="25dp"
+                android:textColor="@android:color/black"
+                android:text="How much weight should you gain during pregnancy?" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textSize="17dp"
+                android:id="@+id/id5"
+                android:layout_below="@+id/id4"
+                android:textColor="@android:color/black"
+                android:text="This depends on your health and your body mass index (also called BMI) before you get pregnant. BMI is a measure of body fat based on your height and weight. To find out your BMI, go to www.cdc.gov/bmi.
+
+Your health care provider uses your BMI before pregnancy to figure out how much weight you should gain during pregnancy. First, let’s look at BMI:
+
+Underweight = BMI less than 18.5
+Healthy weight = BMI 18.5 to 24.9
+Overweight = BMI 25 to 29.9
+Obese = BMI more than 30
+If you’re pregnant with one baby:
+
+If you were underweight before pregnancy, you want to gain about 28 to 40 pounds during pregnancy.
+If you were at a healthy weight before pregnancy, you want to gain about 25 to 35 pounds during pregnancy.
+If you were overweight before pregnancy, you want to gain about 15 to 25 pounds during pregnancy.
+If you were obese before pregnancy, you want to gain about 11 to 20 pounds during pregnancy.
+If you’re pregnant with twins:
+
+If you were at a healthy weight before pregnancy, you want to gain about 37 to 54 pounds during pregnancy.
+If you were overweight before pregnancy, you want to gain about 31 to 50 pounds during pregnancy.
+If you were obese before pregnancy, you want to gain about 25 to 42 pounds during pregnancy.
+If you’re overweight or obese and are gaining less than the recommended amounts, talk to your provider. If your baby is still growing well, your weight gain may be fine.
+
+Gaining weight slowly and steadily is best. Don't worry too much if you don’t gain any weight in the first trimester, or if you gain a little more or a little less than you think you should in any week. You may have some growth spurts—this is when you gain several pounds in a short time and then level off. Don’t ever try to lose weight during pregnancy.
+
+If you’re worried about your weight gain, talk to your health care provider." />
+
+            <TextView
+                android:textStyle="bold"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/id6"
+                android:layout_below="@+id/id5"
+                android:textSize="25dp"
+                android:textColor="@android:color/black"
+                android:text="Where do you gain the weight during pregnancy?" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textSize="17dp"
+                android:id="@+id/id7"
+                android:layout_below="@+id/id6"
+                android:textColor="@android:color/black"
+                android:text="If you’re at a healthy weight before pregnancy and gain 30 pounds during pregnancy, here’s where you carry the weight:
+
+Baby = 7.5 pounds
+Amniotic fluid = 2 pounds. Amniotic fluid surrounds the baby in the womb.
+Blood = 4 pounds
+Body fluids = 4 pounds
+Breasts = 2 pounds
+Fat, protein and other nutrients = 7 pounds
+Placenta = 1.5 pounds. The placenta grows in your uterus (also called womb) and supplies the baby with food and oxygen through the umbilical cord.
+Uterus = 2 pounds. The uterus is the place inside you where your baby grows" />
+
+
+
+
+
+
+
+        </RelativeLayout>
+
+
+    </ScrollView>
+
+
+
+
+</RelativeLayout>

@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.user.familycyclefinal.Clinics">
+
+    <TextView
+        android:paddingTop="10dp"
+        android:id="@+id/boundary"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="#0E6655"
+        android:text="Clinic list"
+        android:textColor="@android:color/white"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:textSize="25dp"/>
+    <ScrollView
+        android:layout_below="@+id/boundary"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#A9DFBF"
+        android:padding="10dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/intro"
+                android:textSize="17dp"
+                android:textColor="@android:color/black"
+                android:text="
+MEDINOVA MEDICAL SERVICES LTD
+
+Dhanmondi
+House 71/A, Road 5/A
+Dhanmondi
+Dhaka, Bangladesh.
+Tel: (88-02) 862-0353/6, 862-4907/10
+
+Malibagh
+Hosaf Tower
+6/9 Outer Circular Road
+Malibagh
+Dhaka, Bangladesh.
+Tel: (88-02) 833-3811/13
+POPULAR DIAGNOSTIC CENTRE LTD
+House 16, Road 2
+Dhanmondi.
+Dhaka, Bangladesh.
+Tel: (88-02) 966-9480, 966-1491/3
+SQUARE HOSPITALS LTD
+18/F West Panthopath
+Dhaka, Bangladesh.
+Tel: (88-02) 812-9334
+UNITED HOSPITALS LTD
+House 15, Road 71
+Gulshan 2
+Dhaka, Bangladesh.
+Tel: (88-02) 883-6000, 883-6444"/>
+
+
+
+
+
+
+        </RelativeLayout>
+
+
+    </ScrollView>
+
+
+
+
+</RelativeLayout>

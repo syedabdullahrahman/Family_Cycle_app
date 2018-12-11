@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.user.familycyclefinal.Family_Planning.ovulationperioid">
+
+    <TextView
+        android:paddingTop="10dp"
+        android:id="@+id/boundary"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="#943126"
+        android:text="Ovulation and Period"
+        android:textColor="@android:color/white"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:textSize="25dp"/>
+    <ScrollView
+        android:layout_below="@+id/boundary"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#FADBD8"
+        android:padding="10dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/intro"
+                android:textSize="17dp"
+                android:textColor="@android:color/black"
+                android:text="Ovulation is the name of the process that happens usually once in every menstrual cycle when hormone changes trigger an ovary to release an egg. A women can only become pregnant if a sperm fertilizes an egg. Ovulation usually happens 12 to 16 days before her next period starts.
+The eggs are contained in her ovaries. During the first part of each menstrual cycle, one of the eggs is being grown and matured."/>
+
+
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:id="@id/img1"
+                android:layout_below="@+id/intro"
+                android:src="@drawable/ovulationcycle"/>
+
+
+            <TextView
+                android:textStyle="bold"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/id2"
+                android:layout_below="@+id/img1"
+                android:textSize="25dp"
+                android:textColor="@android:color/black"
+                android:text="Preparing for ovulation:" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textSize="17dp"
+                android:id="@+id/id3"
+                android:layout_below="@+id/id2"
+                android:textColor="@android:color/black"
+                android:text="At the beginning of a woman's cycle follicle-stimulating hormone (FSH) is produced by the pituitary gland in her brain. This is the main hormone involved in stimulating her ovaries to produce mature eggs. Follicles are the fluid-filled cavities in her ovaries. Each follicle contains one undeveloped egg. The FSH stimulates a number of follicles to develop and start to produce the hormone estrogen. Her level of estrogen is at its lowest on the first day of your period. From then on, it starts to increase as the follicles grow." />
+
+            <TextView
+                android:textStyle="bold"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/id4"
+                android:layout_below="@+id/id3"
+                android:textSize="25dp"
+                android:textColor="@android:color/black"
+                android:text="How long does ovulation last?:" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textSize="17dp"
+                android:id="@+id/id5"
+                android:layout_below="@+id/id4"
+                android:textColor="@android:color/black"
+                android:text="As ovulation is the release of an egg from an ovary it’s almost instantaneous – the follicle bursts and the egg is propelled very quickly into the Fallopian tube." />
+
+            <TextView
+                android:textStyle="bold"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/id6"
+                android:layout_below="@+id/id5"
+                android:textSize="25dp"
+                android:textColor="@android:color/black"
+                android:text="After Ovulation:" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textSize="17dp"
+                android:id="@+id/id7"
+                android:layout_below="@+id/id6"
+                android:textColor="@android:color/black"
+                android:text="Once the egg (or ovum) has been released, it moves along the Fallopian tube towards a woman's womb. The egg can live for up to 24 hours. Sperm survival is more variable, but typically 3-5 days, so the days leading up to ovulation and the day of ovulation itself are your most fertile – when she is most likely to get pregnant. As soon as she have ovulated, the follicle starts producing another hormone: progesterone.
+Progesterone causes further build up the lining of your womb in preparation for a fertilized egg." />
+
+            <TextView
+                android:textStyle="bold"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/id8"
+                android:layout_below="@+id/id7"
+                android:textSize="25dp"
+                android:textColor="@android:color/black"
+                android:text="Preparing for next Period:" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textSize="17dp"
+                android:id="@+id/id9"
+                android:layout_below="@+id/id8"
+                android:textColor="@android:color/black"
+                android:text="As the empty follicle shrinks, if the egg is not fertilized, levels of estrogen and progesterone decrease. Without the high levels of hormones to help maintain it, the thick womb lining that has been built up starts to break down, and your body sheds the lining. This is the start of her period and the beginning of your next menstrual cycle." />
+
+
+
+
+
+        </RelativeLayout>
+
+
+    </ScrollView>
+
+
+
+
+</RelativeLayout>

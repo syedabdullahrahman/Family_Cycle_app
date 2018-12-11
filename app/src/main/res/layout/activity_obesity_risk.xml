@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.user.familycyclefinal.BabyCare.ObesityRisk">
+
+
+    <TextView
+        android:paddingTop="10dp"
+        android:id="@+id/boundary"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="#0E6655"
+        android:text="New Born Baby's Obesity Risk"
+        android:textColor="@android:color/white"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:textSize="25dp"/>
+    <ScrollView
+        android:layout_below="@+id/boundary"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#A9DFBF"
+        android:padding="10dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/intro"
+                android:textSize="17dp"
+                android:textColor="@android:color/black"
+                android:text="If you're concerned about your baby's weight, you should consult with your baby's doctor. Growth, development and weight are expected topics to discuss during routine well-baby exams.
+
+During infancy, the doctor will plot your baby's growth on charts that show weight for length. Later, your baby's doctor may calculate your child's BMI. You can use the charts to track your child's growth trend and to compare your baby's growth with that of other infants of the same sex and age. According to the World Health Organization growth charts, a baby with a weight-for-length greater than the 98th percentile is considered to have a high weight for length.
+
+Remember, babies need a diet high in fat to support growth during infancy. A baby who's exclusively breast-fed gets about half of his or her daily calories from the fat in breast milk. As a result, caloric restrictions aimed at reducing weight are not recommended for babies 2 years and under.
+
+Excess fat and calories can still be a concern, though. For example, being too heavy can delay crawling and walking — essential parts of a baby's physical and mental development. While a large baby may not become an overweight child, a child who is obese often remains obese as an adult.
+
+To keep your baby at a healthy weight:
+
+"/>
+
+            <TextView
+                android:textStyle="bold"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/id2"
+                android:layout_below="@+id/intro"
+                android:textSize="25dp"
+                android:textColor="@android:color/black"
+                android:text="Monitor your weight gain during pregnancy :" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textSize="17dp"
+                android:id="@+id/id3"
+                android:layout_below="@+id/id2"
+                android:textColor="@android:color/black"
+                android:text=" Excessive weight gain during pregnancy can increase a baby's birth weight. Research suggests that as birth weight increases, so does the risk of childhood obesity." />
+
+            <TextView
+                android:textStyle="bold"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/id4"
+                android:layout_below="@+id/id3"
+                android:textSize="25dp"
+                android:textColor="@android:color/black"
+                android:text="Breast Feeding:" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textSize="17dp"
+                android:id="@+id/id5"
+                android:layout_below="@+id/id4"
+                android:textColor="@android:color/black"
+                android:text="Some research suggests that breast-feeding reduces the risk of childhood obesity." />
+
+            <TextView
+                android:textStyle="bold"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/id6"
+                android:layout_below="@+id/id5"
+                android:textSize="25dp"
+                android:textColor="@android:color/black"
+                android:text="Limit sugar-sweetened drinks :" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textSize="17dp"
+                android:id="@+id/id7"
+                android:layout_below="@+id/id6"
+                android:textColor="@android:color/black"
+                android:text="Juice isn't a necessary part of a baby's diet. As you start introducing solid foods, consider offering nutritious whole fruits and vegetables instead." />
+
+            <TextView
+                android:textStyle="bold"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/id8"
+                android:layout_below="@+id/id7"
+                android:textSize="25dp"
+                android:textColor="@android:color/black"
+                android:text="Experiment with ways to soothe your baby :" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textSize="17dp"
+                android:id="@+id/id9"
+                android:layout_below="@+id/id8"
+                android:textColor="@android:color/black"
+                android:text=" Don't automatically turn to breast milk or formula to quiet your baby's cries. Sometimes a new position, a calmer environment or a gentle touch is all that's needed." />
+
+            <TextView
+                android:textStyle="bold"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/id10"
+                android:layout_below="@+id/id9"
+                android:textSize="25dp"
+                android:textColor="@android:color/black"
+                android:text="Limit media use :" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textSize="17dp"
+                android:id="@+id/id11"
+                android:layout_below="@+id/id10"
+                android:textColor="@android:color/black"
+                android:text="The American Academy of Pediatrics discourages media use by children younger than 2 years. The more TV your child watches, the greater his or her risk is of becoming overweight." />
+
+
+
+
+
+
+        </RelativeLayout>
+
+
+    </ScrollView>
+
+
+</RelativeLayout>

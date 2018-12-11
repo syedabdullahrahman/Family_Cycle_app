@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:id="@+id/userpic"
+        android:src="@drawable/botuser"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:id="@+id/user_question"
+        android:text=""
+        android:textAlignment="center"
+        android:hint="Please ask your question"
+        android:textColor="@android:color/holo_red_dark"
+        android:textStyle="bold"
+        android:textSize="22dp"
+        android:layout_toRightOf="@+id/userpic"/>
+
+    <ImageView
+        android:id="@+id/bot_pic"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/user_question"
+        android:src="@drawable/doctor_list" />
+
+    <TextView
+        android:id="@+id/bot_answer"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/userpic"
+        android:textAlignment="center"
+        android:text="Answer will appear here"
+        android:textSize="22dp"
+        android:textStyle="bold"
+        android:layout_toLeftOf="@+id/bot_pic"/>
+
+</RelativeLayout>

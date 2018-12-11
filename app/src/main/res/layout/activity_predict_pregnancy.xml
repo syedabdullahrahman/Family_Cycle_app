@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.user.familycyclefinal.Family_Planning.PredictPregnancy">
+
+    <TextView
+        android:paddingTop="10dp"
+        android:id="@+id/boundary"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="#943126"
+        android:text="Predict Pregnancy"
+        android:textColor="@android:color/white"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:textSize="25dp"/>
+    <ScrollView
+        android:layout_below="@+id/boundary"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#FADBD8"
+        android:padding="10dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/intro"
+                android:textSize="17dp"
+                android:textColor="@android:color/black"
+                android:text="Becoming pregnant is a matter of chance, meaning some people will succeed at the first attempt while other fertile couples may try for many months without success.
+
+But because women's fertility generally declines during their thirties, increasing age makes it ever more likely that failure to conceive is down to a medical cause and not simply bad luck.
+
+Now researchers have devised a simple formula to help couples understand their chance of becoming pregnant naturally, and judge when is the time to seek advice from a doctor.
+
+The calculation, based on the age of the woman and how long the couple has been trying to conceive, can predict their chances of success during the following cycle.
+
+When a woman is 25, for example, the model predicts that only after 13 menstrual periods will her chance of pregnancy with each new cycle drop below 10 per cent.
+But by the age of 30 it takes 10 months for the chance of conception to fall below 10 per cent, and at 35 the likelihood of pregnancy drops below the threshold after just six months of trying.
+
+The model, described in the Public Library of Science ONE journal, was calculated using existing data from previous studies on pregnancy rates.
+
+A general rule of thumb used by doctors is that couples should try to conceive normally for a year before seeking help, but the new study suggests that by their mid thirties women may benefit from doing so sooner.
+
+Researchers said it could be incorporated into an online calculator so that couples could calculate their chance of pregnancy at home and decide whether to seek advice.
+
+While the model is not 100 per cent accurate, it can predict when a couple's chances will fall below any given threshold within a range of two to three months.
+
+Prof Geraldine Hartshorne of Warwick Medical School, who co-wrote the study, said: People expect to get pregnant when they want to, so finding out that it isn't happening can be a shock.
+
+            Approaching a doctor about such a personal matter is daunting so knowing when is the right time to start investigations would be a useful step forward.
+
+            If a couple decides to see a doctor they could have fertility tests and, based on the result, decide whether or not to keep trying, seek treatment, or explore other options for having a child, Prof Hartshorne added.
+
+            Pregnancy is a game of chance but having as much information as possible is usually a good thing. People can have tests if they want to and then make the next decision that is right for them."
+
+                />
+
+
+
+
+        </RelativeLayout>
+
+
+    </ScrollView>
+
+
+
+</RelativeLayout>

@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.user.familycyclefinal.Married_couple_profile_edit">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/mypro"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="24dp"
+            android:text="Edit Your Profile"
+            android:textAlignment="center"
+            android:textColor="#196F3D"
+            android:textSize="32dp"
+            android:textStyle="bold" />
+
+
+        <ImageView
+            android:id="@+id/nijerpic"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_alignEnd="@+id/textView7"
+            android:layout_alignRight="@+id/textView7"
+            android:layout_alignTop="@+id/imageView3"
+            android:layout_marginEnd="11dp"
+            android:layout_marginRight="11dp"
+            app:srcCompat="@drawable/uploadpro" />
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_alignLeft="@+id/textView8"
+            android:layout_alignStart="@+id/textView8"
+            android:layout_below="@+id/mypro"
+            android:layout_marginTop="36dp"
+            app:srcCompat="@drawable/uploadpro" />
+
+        <TextView
+            android:id="@+id/textView7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/mypro"
+            android:layout_alignStart="@+id/mypro"
+            android:layout_below="@+id/nijerpic"
+            android:layout_marginTop="26dp"
+            android:text="Upload Your Pic"
+            android:textColor="@android:color/holo_red_dark"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/textView8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/textView7"
+            android:layout_marginLeft="14dp"
+            android:layout_marginStart="14dp"
+            android:layout_toEndOf="@+id/nijerpic"
+            android:layout_toRightOf="@+id/nijerpic"
+            android:text="Upload your spouse pic"
+            android:textColor="@android:color/holo_red_dark"
+            android:textSize="20dp" />
+
+        <EditText
+            android:id="@+id/yourname"
+            android:layout_width="400dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/textView8"
+            android:layout_marginTop="27dp"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:paddingLeft="10dp"
+            android:hint="Enter Your Name"
+            />
+
+        <EditText
+            android:id="@+id/spousename"
+            android:layout_width="400dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/yourname"
+            android:layout_marginTop="27dp"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:paddingLeft="10dp"
+            android:hint="Enter Your Spouse Name"/>
+
+        <EditText
+            android:id="@+id/yourbirth"
+            android:layout_width="400dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/spousename"
+            android:layout_marginTop="27dp"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:paddingLeft="10dp"
+            android:hint="Enter Your Date of Birth"
+            />
+
+        <EditText
+            android:id="@+id/spousebirth"
+            android:layout_width="400dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/yourbirth"
+            android:layout_marginTop="27dp"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:paddingLeft="10dp"
+            android:hint="Enter Your spouse date of birth"
+            />
+
+        <EditText
+            android:id="@+id/marriagedate"
+            android:layout_width="400dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/spousebirth"
+            android:layout_marginTop="27dp"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:paddingLeft="10dp"
+            android:hint="Enter marriage date"
+            />
+
+        <EditText
+            android:id="@+id/mailaddress"
+            android:layout_width="400dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/marriagedate"
+            android:layout_marginTop="27dp"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:paddingLeft="10dp"
+            android:hint="Enter your email address"
+            />
+
+        <Button
+            android:paddingLeft="10dp"
+            android:paddingTop="10dp"
+            android:paddingRight="10dp"
+            android:paddingEnd="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:paddingBottom="10dp"
+            android:layout_below="@+id/marriagedate"
+            android:id="@+id/submit"
+            android:textColor="@android:color/white"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:background="#1A5276"
+            android:text="Submit"/>
+
+
+    </RelativeLayout>
+
+
+</ScrollView>

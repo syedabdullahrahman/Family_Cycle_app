@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.user.familycyclefinal.BabyCare.VitaminAndMinarels">
+
+
+    <TextView
+        android:paddingTop="10dp"
+        android:id="@+id/boundary"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="#0E6655"
+        android:text="Vitamins and Minarels"
+        android:textColor="@android:color/white"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:textSize="25dp"/>
+    <ScrollView
+        android:layout_below="@+id/boundary"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#A9DFBF"
+        android:padding="10dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/intro"
+                android:textSize="17dp"
+                android:textColor="@android:color/black"
+                android:text="The need for infant vitamins is a confusing topic. Babies do need vitamins to grow well and to be healthy. They need them for strong bones, healthy teeth, and to build up their blood and prevent anemia. The confusing part is that most infants get all of the vitamins and minerals they need through the foods that they eat and drink, including vitamin A, calcium, zinc, and the vitamins and minerals discussed in this section. So while they do need vitamins and minerals, they don't always need a supplement each day, unless they were born prematurely or have some other health problem."/>
+
+            <TextView
+                android:textStyle="bold"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/id2"
+                android:layout_below="@+id/intro"
+                android:textSize="25dp"
+                android:textColor="@android:color/black"
+                android:text="Iron :" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textSize="17dp"
+                android:id="@+id/id3"
+                android:layout_below="@+id/id2"
+                android:textColor="@android:color/black"
+                android:text="Iron is one of the more important minerals your baby needs. The effects of a diet poor in iron, which can lead to iron deficiency anemia, are well known. These include learning problems, developmental delays, and behavioral problems.
+
+However, your infant, unless he was born premature, should be able to get all of the iron he needs from breastmilk or an iron-fortified formula during his first four to six months. After that time he does need extra iron, but you can usually provide it from the baby foods that he is beginning to eat, such as an iron-fortified infant rice cereal, in addition to continuing to feed him his breastmilk or formula.
+
+If your baby is otherwise well, he probably won't develop an iron deficiency unless you switch him to cow's milk before his first birthday or you do not begin to give extra iron after he is six months old. Remember that premature babies often do need a vitamin supplement that has iron in it.
+
+" />
+
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:id="@+id/img1"
+                android:layout_below="@id/id3"
+                android:src="@drawable/iron2"
+                />
+
+            <TextView
+                android:textStyle="bold"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/id4"
+                android:layout_below="@+id/img1"
+                android:textSize="25dp"
+                android:textColor="@android:color/black"
+                android:text="Fluoride:" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textSize="17dp"
+                android:id="@+id/id5"
+                android:layout_below="@+id/id4"
+                android:textColor="@android:color/black"
+                android:text="Newborns don't need fluoride, but once your infant is about six months old and begins getting teeth, he will need fluoride to keep them strong and growing well. The main source of this fluoride isn't an extra vitamin though. You can instead provide it by offering your baby some fluoridated tap water each day.
+
+Your baby may not be getting enough fluoride if he is drinking any of the following:
+
+Well water
+Tap water that is not fluoridated
+Bottled water that does not have added fluoride
+Water that is filtered of fluoride
+Breastmilk exclusively
+Ready-to-feed formula exclusively
+You can start your baby on fluoride supplements, but getting too much fluoride can easily lead to fluorosis or staining of their teeth, so it is usually best to try to give your baby fluoridated water. If you are exclusively breastfeeding, offering some extra water with fluoride once your baby is six months old is the best way to avoid problems. Talk to your pediatrician to get a prescription for a fluoride supplement if your baby has no way of getting fluoride from the water he is drinking." />
+
+
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:id="@+id/img2"
+                android:layout_below="@id/id5"
+                android:src="@drawable/fluoride"
+                />
+
+
+
+
+            <TextView
+                android:textStyle="bold"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/id6"
+                android:layout_below="@+id/img2"
+                android:textSize="25dp"
+                android:textColor="@android:color/black"
+                android:text="E Fact:" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textSize="17dp"
+                android:id="@+id/id7"
+                android:layout_below="@+id/id6"
+                android:textColor="@android:color/black"
+                android:text="Rickets, caused by a deficiency of vitamin D, is a serious disorder that causes skeletal deformities and poor growth. Although not as common as it used to be, it does still affect some children, especially those who are very dark-skinned, don't get any or little sun exposure, and are exclusively breastfed." />
+
+            <TextView
+                android:textStyle="bold"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/id8"
+                android:layout_below="@+id/id7"
+                android:textSize="25dp"
+                android:textColor="@android:color/black"
+                android:text="Vitamin D:" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textSize="17dp"
+                android:id="@+id/id9"
+                android:layout_below="@+id/id8"
+                android:textColor="@android:color/black"
+                android:text="Not getting enough vitamin D can cause a baby to get a bone disorder called rickets. Because infant formula is fortified with vitamin D, infants drinking at least 17 ounces of formula each day do not need any extra vitamin D.
+
+Unlike formula, breastmilk does not contain enough vitamin D for babies, but that wasn't thought to be a problem because it was believed that exclusively breastfed infants got enough vitamin D from sunlight exposure. However, now that the effects of excessive sun exposure are known and sunscreen is being used more often, it is thought that exposure to the sun is not enough for breastfed babies. The American Academy of Pediatrics now recommends that breastfed babies receive a vitamin D supplement beginning in the first two months of life. The need for vitamin D supplements is a controversial topic though, especially for light-skinned infants in sunny climates, so you might talk to your pediatrician about whether this is necessary for your baby." />
+
+
+
+
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/img3"
+                android:layout_below="@id/id9"
+                android:src="@drawable/vitamind"
+                />
+
+
+
+        </RelativeLayout>
+
+
+    </ScrollView>
+
+
+
+</RelativeLayout>

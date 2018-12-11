@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.user.familycyclefinal.Kazi.DenmaharKaziShare">
+
+    <TextView
+        android:paddingTop="10dp"
+        android:id="@+id/boundary"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="#0E6655"
+        android:text="Denmahar and Kazi's Share"
+        android:textColor="@android:color/white"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:textSize="25dp"/>
+    <ScrollView
+        android:layout_below="@+id/boundary"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#A9DFBF"
+        android:padding="10dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/intro"
+                android:textSize="17dp"
+                android:textColor="@android:color/black"
+                android:text="Marriage registration fees are fixed on the basis of Dower Money.
+
+1. For each 1000/- (One Thousand Taka) of dower money, registration fee is 12.50/- (Twelve Taka and Fifty Paisa)
+
+2. For each 1,00,000/- (One Lac Taka) of dower money, registration fee is 1,250/- (One Thousand Two Hundred and Fifty Taka)
+
+3. After 4,00,000/- (Four Lac Taka), for each lac registration fee is 100/- (One Hundred Taka)
+
+Example: Dower money 1000/-., registration fee = 12.50/-
+Dower money 1 lac taka, registration fee= 1,250/-
+Dower money 4 lac taka, registration fee= 5,000/-
+Dower money 5 lac taka, registration fee= 5,100/-"/>
+
+
+        </RelativeLayout>
+
+
+    </ScrollView>
+
+
+
+</RelativeLayout>

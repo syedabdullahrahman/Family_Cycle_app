@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.user.familycyclefinal.After_Marriage.Challenges">
+
+
+    <TextView
+        android:paddingTop="10dp"
+        android:id="@+id/boundary"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="#6C3483"
+        android:text="Challenges of Married Life"
+        android:textColor="@android:color/white"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:textSize="25dp"/>
+    <ScrollView
+        android:layout_below="@+id/boundary"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#AED6F1"
+        android:padding="10dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+
+            <TextView
+                android:textStyle="bold"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/id2"
+                android:textSize="25dp"
+                android:textColor="@android:color/black"
+                android:text="Career and Employment Issues:" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textSize="17dp"
+                android:id="@+id/id3"
+                android:layout_below="@+id/id2"
+                android:textColor="@android:color/black"
+                android:text="At first it probably sounds simple. Get a job to pay the bills so that couples can live happily ever after. But jobs take a lot of time and sometimes that time is stolen from the time that the marriage relationship needs." />
+
+            <TextView
+                android:textStyle="bold"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/id4"
+                android:layout_below="@+id/id3"
+                android:textSize="25dp"
+                android:textColor="@android:color/black"
+                android:text="Time Management:" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textSize="17dp"
+                android:id="@+id/id5"
+                android:layout_below="@+id/id4"
+                android:textColor="@android:color/black"
+                android:text="A consistent issue that arises in my coaching clients is time management. Couples are feeling so busy and stressed by feeling pulled multiple directions that the quality of the marriage is declining. The couples need to increase their effectiveness with consultation, a form of collaborative decision making. They examine their feelings and the facts of their circumstances in a gentle, honest way and reach a unified decision about how to rearrange their lives." />
+
+            <TextView
+                android:textStyle="bold"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/id6"
+                android:layout_below="@+id/id5"
+                android:textSize="25dp"
+                android:textColor="@android:color/black"
+                android:text="Financial matters:" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textSize="17dp"
+                android:id="@+id/id7"
+                android:layout_below="@+id/id6"
+                android:textColor="@android:color/black"
+                android:text="The stress associated with money problems can be overwhelming. But in the end, it’s only money. And money has no power over the commitment to the relationship. For dealing with the situation one need to commit to a plan, live the life as simple as possible and the most important part is never keep financial secrets from wife." />
+
+            <TextView
+                android:textStyle="bold"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/id8"
+                android:layout_below="@+id/id7"
+                android:textSize="25dp"
+                android:textColor="@android:color/black"
+                android:text="Weight gain and personal hygiene:" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textSize="17dp"
+                android:id="@+id/id9"
+                android:layout_below="@+id/id8"
+                android:textColor="@android:color/black"
+                android:text="Something that tends to happen in the first year of marriage is that becoming very, very comfortable with one another. So much so that sometimes couples let their personal hygiene and fitness go simply because they know that being married means that they no longer have to seek a new partner. This is not only detrimental to the relationship, but it is also bad for their health.Finding simple exercise routines that both like, such as going for a walk after dinner or running in the mornings may be helpful." />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/id10"
+                android:layout_below="@+id/id9"
+                android:textSize="17dp"
+                android:textColor="@android:color/black"
+                android:text=""/>
+
+            <TextView
+                android:textStyle="bold"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/id11"
+                android:layout_below="@+id/id10"
+                android:textSize="25dp"
+                android:textColor="@android:color/black"
+                android:text="Traumatic situations:" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textSize="17dp"
+                android:id="@+id/id12"
+                android:layout_below="@+id/id11"
+                android:textColor="@android:color/black"
+                android:text="When couples go through traumatic incidences, it just adds more challenge in their married life problems. Traumatic situations are other problems that couples may experience. For some married couples, these traumatic situations become problems because one spouse does not know how to handle the situation at hand." />
+
+            <TextView
+                android:textStyle="bold"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/id13"
+                android:layout_below="@+id/id12"
+                android:textSize="25dp"
+                android:textColor="@android:color/black"
+                android:text="Jealousy:" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textSize="17dp"
+                android:id="@+id/id14"
+                android:layout_below="@+id/id13"
+                android:textColor="@android:color/black"
+                android:text="Jealousy is another common issue that causes a marriage to turn sour. If you have an overly jealous partner, being with them and around them can become a challenge. Jealousy is good for any relationship, as long as it is not a person being overly jealous. Having a partner that is overly jealous can put a strain on the relationship; a lot of stress will eventually end such a relationship." />
+
+            <TextView
+                android:textStyle="bold"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/id15"
+                android:layout_below="@+id/id14"
+                android:textSize="25dp"
+                android:textColor="@android:color/black"
+                android:text="Boredom:" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textSize="17dp"
+                android:id="@+id/id16"
+                android:layout_below="@+id/id15"
+                android:textColor="@android:color/black"
+                android:text="Boredom is an underrated but serious marital problem. With time couples may become bored with their relationship. They may get tired of the things that occur within the relationship. In this situation, it comes down to being bored with the relationship because it has become predictable. If a relationship lacks spontaneous activities, there is a good chance boredom will become a problem." />
+
+            <TextView
+                android:textStyle="bold"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/id17"
+                android:layout_below="@+id/id16"
+                android:textSize="25dp"
+                android:textColor="@android:color/black"
+                android:text="Values and belifs:" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textSize="17dp"
+                android:id="@+id/id18"
+                android:layout_below="@+id/id17"
+                android:textColor="@android:color/black"
+                android:text="Certainly, there will be differences and disagreements within a marriage, but some differences are too major to ignore, such as core values and beliefs. One spouse may have one religion and the other may have a different belief. As one may guess, this can cause major trouble down the line when one spouse gets tired of doing things separately, such as going to different places of worship. Such marriage problems are extremely common in cross cultural marriages." />
+
+
+
+
+
+
+
+        </RelativeLayout>
+
+
+    </ScrollView>
+
+
+</RelativeLayout>

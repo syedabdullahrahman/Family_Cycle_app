@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back1"
+    android:paddingLeft="10dp"
+    tools:context="com.example.user.familycyclefinal.DuringPragnancy.meditation_dp">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="Try Deep Belly Meditation"
+            android:textSize="28dp"
+            android:textColor="#EEEBE1"
+            android:textStyle="bold"/>
+        <me.biubiubiu.justifytext.library.JustifyTextView
+            android:layout_width="match_parent"
+            android:layout_height="280dp"
+            android:layout_gravity="center_vertical|right"
+            android:textSize="20dp"
+            android:textColor="@android:color/white"
+           android:text="Place your hands on your belly, gently cradling the baby. Observe the sensations felt beneath your hands. (Do you feel warmth? Movement?) Breathe slowly, in and out. (If your mind wanders off, breathe deeper into your belly.) If a thought arises, let it float away, as if it were a cloud in the sky.
+
+Try doing this for five minutes each day, gradually adding more time each week."
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:text="Make it a Mantra"
+            android:textSize="30dp"
+            android:textColor="#EEEBE1"
+            android:textStyle="bold"/>
+
+        <me.biubiubiu.justifytext.library.JustifyTextView
+            android:layout_width="match_parent"
+            android:layout_height="290dp"
+            android:textSize="20dp"
+            android:textColor="@android:color/white"
+            android:text="There's a lot of power in our words. When we speak of something, we believe in it. It affects our consciousness, our nervous system, and our way of being. During challenging yoga poses, try saying Strong mama breath. Breathe in for baby. This same mantra can be used to help you through difficult times in pregnancy and during labor."
+
+        />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:text="Visualize a Wave"
+            android:textSize="30dp"
+            android:textColor="#EEEBE1"
+            android:textStyle="bold"/>
+
+        <me.biubiubiu.justifytext.library.JustifyTextView
+            android:layout_width="match_parent"
+            android:layout_height="280dp"
+            android:textSize="20dp"
+            android:textColor="@android:color/white"
+            android:text="Fun fact: You can actually decrease the intensity of pain through visualization (meditation combined with mental imagery), no doubt, a useful tool to have during labor.
+
+Your plan: View each contraction as a wave in the ocean. Watch it slowly peak in intensity and then allow it to slowly come down. See yourself as a jellyfish, allowing that wave to wash through you."
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:text="Think:Blossoming Lotus"
+            android:textSize="30dp"
+            android:textColor="#EEEBE1"
+            android:textStyle="bold"/>
+
+        <me.biubiubiu.justifytext.library.JustifyTextView
+            android:layout_width="match_parent"
+            android:layout_height="240dp"
+            android:textSize="20dp"
+            android:textColor="@android:color/white"
+           android:text="The lotus flower is a very sacred, pure, and deeply spiritual flower honored by many different cultures: Visualize your cervix as a blossoming lotus flower. Upon every contraction, visualize and chant, Open, open, open."
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:text=" Relax Your 'Third Eye' "
+            android:textSize="30dp"
+            android:textColor="#EEEBE1"
+            android:textStyle="bold"/>
+
+        <me.biubiubiu.justifytext.library.JustifyTextView
+            android:layout_width="match_parent"
+            android:layout_height="280dp"
+            android:textSize="20dp"
+            android:textColor="@android:color/white"
+           android:text="Become aware of the space on your forehead between your eyebrows, known as the third eye. Directly behind it is the pineal gland, which is sensitive to light. It also produces serotonin, a hormone that affects the regulation of wake-sleep patterns and your energy levels. Whether you're in labor, or just stressed, be sure to relax the muscles on your forehead between your eyebrows for maximum relaxation."
+            />
+
+
+
+
+    </LinearLayout>
+
+</ScrollView>

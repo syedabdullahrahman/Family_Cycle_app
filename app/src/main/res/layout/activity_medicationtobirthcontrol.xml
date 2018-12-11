@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.user.familycyclefinal.Family_Planning.Medicationtobirthcontrol">
+
+    <TextView
+        android:paddingTop="10dp"
+        android:id="@+id/boundary"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="#943126"
+        android:text="Medication of Birth Control"
+        android:textColor="@android:color/white"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:textSize="25dp"/>
+    <ScrollView
+        android:layout_below="@+id/boundary"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#FADBD8"
+        android:padding="10dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+
+            <TextView
+                android:textStyle="bold"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/id2"
+                android:layout_below="@+id/intro"
+                android:textSize="25dp"
+                android:textColor="@android:color/black"
+                android:text="Medications and birth control at a glance:" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textSize="17dp"
+                android:id="@+id/id3"
+                android:layout_below="@+id/id2"
+                android:textColor="@android:color/black"
+                android:text="Hormone-based birth control methods, such as pills, patches, injections, implants and vaginal rings, do not pose a significant risk of negative reactions or side effects when used with other medications.
+However, an individual may experience negative reactions to any medication or combinations of medications.
+Some medications, such as certain antibiotics and anti-fungal drugs, are suspected of affecting the potency of the hormones in birth control that prevent pregnancy.
+Because of this, some physicians may recommend that women taking those drugs increase the dose of their birth control or use another method of birth control.
+Women should always tell their physician about all medications they are taking." />
+
+            <TextView
+                android:textStyle="bold"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/id4"
+                android:layout_below="@+id/id3"
+                android:textSize="25dp"
+                android:textColor="@android:color/black"
+                android:text="Using birth control with other medications:" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textSize="17dp"
+                android:id="@+id/id5"
+                android:layout_below="@+id/id4"
+                android:textColor="@android:color/black"
+                android:text="Women using hormone-based birth control methods are not at any increased risk of experiencing complications or side effects when taking other medications. The greater concern is how other medications might reduce the effectiveness of hormone-based birth control, thereby increasing the chance of pregnancy.
+
+Since the hormones in birth control methods such as pills, patches, injections, rings and implants are mainly metabolized in a woman’s liver, it has been thought that other medications that stimulate the production of liver enzymes could break down the effectiveness of the hormones in birth control.
+
+Many physicians think that certain antibiotics, anti-fungal drugs and drugs that act on the central nervous system, such as barbiturates to prevent epilepsy seizures and drugs to treat Attention Deficit and Hyperactivity Disorder, have this effect.
+
+Rifampin, an antibiotic used to treat tuberculosis, is the only drug that has been proven to reduce the effectiveness of hormone-based birth control to prevent pregnancy. Clear-cut answers about this effect with other medications are elusive, due to a lack of definitive studies.
+
+Because of this uncertainty, some doctors advise women using hormone-based birth control to either change the dosage or practice other methods of birth control while taking certain types of medications.
+
+These medications include:
+
+The antibiotics tetracycline, ampicillin and amoxicillin
+Anti-fungal drugs griseofulvin and nystatin
+Anti-seizure and migraine drugs phenobarbital, carbamazepine (also used to treat bipolar disorder, ADHD and schizophrenia) and Topamax
+The herbal supplement St. John’s Wort." />
+
+            <TextView
+                android:textStyle="bold"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/id6"
+                android:layout_below="@+id/id5"
+                android:textSize="25dp"
+                android:textColor="@android:color/black"
+                android:text="Side effects of birth control and medication interaction:" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textSize="17dp"
+                android:id="@+id/id7"
+                android:layout_below="@+id/id6"
+                android:textColor="@android:color/black"
+                android:text="Whenever two medications interact negatively, side effects can vary from person to person. It is important to know the side effects of the medications you are taking, and watch for them.
+
+In the case of potential interaction that reduces the effectiveness of birth control, there will most likely be no side effects. If you experience any of the following serious side effects associated with taking birth control, seek medical help:
+
+Chest pain
+Stomach pain
+Severe headaches
+Blurred vision and other eye problems
+Swelling or aching in your legs.
+Always talk to your doctor about potential interactions between any medications you are taking and the type of birth control prescribed for you.
+
+Visit our birth control section for more information on the different types of birth control methods available." />
+
+
+
+
+
+        </RelativeLayout>
+
+
+    </ScrollView>
+
+
+
+
+</RelativeLayout>

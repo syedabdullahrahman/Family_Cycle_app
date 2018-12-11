@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">FamilyCycleFinal</string>
+    <string name="title_activity_signup_as_kazi">signupAsKazi</string>
+    <string name="title_activity_after_marriage">AfterMarriageActivity</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+
+    <string name="action_settings">POST YOUR QUERY HERE</string>
+    <string name="title_activity_kazis_main">KazisMainActivity</string>
+    <string name="title_activity_family_planning">FamilyPlanningActivity</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_during_pragnancy">DuringPragnancyActivity</string>
+    <string name="title_activity_baby_care">BabyCareActivity</string>
+    <string name="title_activity_kazir_main">KazirMainActivity</string>
+    <string name="title_activity_pregnancy_details">pregnancy_details</string>
+    <string name="title_activity_maps">Map</string>
+
+</resources>

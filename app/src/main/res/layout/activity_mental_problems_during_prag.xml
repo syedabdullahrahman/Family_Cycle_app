@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back1"
+    android:paddingLeft="10dp"
+    tools:context="com.example.user.familycyclefinal.DuringPragnancy.meditation_dp">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:paddingTop="10dp"
+            android:layout_height="88dp"
+            android:text="Pregnancy depression, anxiety and stress: "
+            android:textSize="28dp"
+            android:textColor="#EEEBE1"
+            android:textStyle="bold"/>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:layout_gravity="center_vertical|right"
+            android:textSize="20dp"
+            android:textColor="@android:color/white"
+           android:text="For most of the pregnant women mood swinging is one of the main occurrences that can be noticed. One can become very angry in one day and joyful to the next. It’s a phase when a pregnant mother has to think both for herself and for the baby.  Believe that she can do feels her better. Husband plays a vital role in this situation to give mental support. Sharing the anxiety with husband and communicating openly about anxiety can help both feel better."
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:text="Pregnancy grief and loss: "
+            android:textSize="30dp"
+            android:textColor="#EEEBE1"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:textSize="20dp"
+            android:textColor="@android:color/white"
+            android:text="When a woman conceives again, it may be a while before she can enjoy this pregnancy after a loss. It's normal for a woman who has had a miscarriage to worry that she might lose this baby, too. That can make it difficult to feel excited about a subsequent pregnancy and trust that it will last." />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:paddingTop="10dp"
+            android:layout_height="75dp"
+            android:text="Antenatal anxiety"
+            android:textSize="28dp"
+            android:textColor="#EEEBE1"
+            android:textStyle="bold"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="460dp"
+            android:layout_gravity="center_vertical|right"
+            android:textSize="20dp"
+            android:textColor="@android:color/white"
+            android:text="A pragnent women may have antenatal anxiety if she:
+
+1.feel worried, stressed or on edge most of the time
+2.have recurring thoughts that won’t go away
+3.have panic attacks
+4.have muscles that are tense
+5.find it hard to stay calm
+6.are having trouble sleeping.
+
+These symptoms can develop gradually, or you may experience them suddenly and intensely. They can get worse over time if they’re not treated."
+            />
+
+
+    </LinearLayout>
+
+</ScrollView>

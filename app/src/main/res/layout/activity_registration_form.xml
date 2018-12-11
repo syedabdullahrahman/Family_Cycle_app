@@ -1,0 +1,360 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp"
+    tools:context="com.example.user.familycyclefinal.Kazi.RegistrationFormActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:text="Name of Groom :"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:textColor="#2E4053"/>
+
+            <EditText
+                android:textAlignment="center"
+                android:background="@drawable/side_nav_bar"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:id="@+id/groom_name"
+                android:hint="Enter Groom name"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:text="Birth Date of Groom :"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:textColor="#2E4053"/>
+            <EditText
+                android:textAlignment="center"
+                android:background="@drawable/side_nav_bar"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:id="@+id/groom_birth"
+                android:hint="Enter Groom's Date of Birth"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:text="Blood Group of Groom :"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:textColor="#2E4053"/>
+            <EditText
+                android:textAlignment="center"
+                android:background="@drawable/side_nav_bar"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:id="@+id/groom_blood"
+                android:hint="Enter Groom's Blood Group"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:text="Name of Groom's Father :"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:textColor="#2E4053"/>
+            <EditText
+                android:textAlignment="center"
+                android:background="@drawable/side_nav_bar"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:id="@+id/groom_father"
+                android:hint="Enter Groom's Father name"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:text="Name of Groom's Mother :"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:textColor="#2E4053"/>
+            <EditText
+                android:textAlignment="center"
+                android:background="@drawable/side_nav_bar"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:id="@+id/groom_mother"
+                android:hint="Enter Groom's Mother name"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:text="Address of Groom :"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:textColor="#2E4053"/>
+
+            <EditText
+                android:textAlignment="center"
+                android:background="@drawable/side_nav_bar"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:id="@+id/groom_address"
+                android:hint="Enter Groom's Address"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:text="Name of Bride :"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:textColor="#2E4053"/>
+
+            <EditText
+                android:textAlignment="center"
+                android:background="@drawable/side_nav_bar"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:id="@+id/bride_name"
+                android:hint="Enter Bride name"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:text="Birth Date of Bride :"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:textColor="#2E4053"/>
+
+
+            <EditText
+                android:textAlignment="center"
+                android:background="@drawable/side_nav_bar"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:id="@+id/bride_birth"
+                android:hint="Enter Bride's Date of Birth"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:text="Blood Group of Bride :"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:textColor="#2E4053"/>
+
+            <EditText
+                android:textAlignment="center"
+                android:background="@drawable/side_nav_bar"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:id="@+id/bride_blood"
+                android:hint="Enter Bride's Blood Group"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:text="Name of Bride's Father :"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:textColor="#2E4053"/>
+
+            <EditText
+                android:textAlignment="center"
+                android:background="@drawable/side_nav_bar"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:id="@+id/bride_father"
+                android:hint="Enter Bride's Father name"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:text="Name of Bride's Mother :"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:textColor="#2E4053"/>
+
+            <EditText
+                android:textAlignment="center"
+                android:background="@drawable/side_nav_bar"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:id="@+id/bride_mother"
+                android:hint="Enter Bride's Mother name"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:text="Address of Bride :"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:textColor="#2E4053"/>
+
+            <EditText
+                android:textAlignment="center"
+                android:background="@drawable/side_nav_bar"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:id="@+id/bride_address"
+                android:hint="Enter Bride's Address"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:text="Name of Witness-01 :"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:textColor="#2E4053"/>
+
+
+            <EditText
+                android:textAlignment="center"
+                android:background="@drawable/side_nav_bar"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:id="@+id/witness1"
+                android:hint="Enter the name of witness1"/>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:text="Address of Witness-01 :"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:textColor="#2E4053"/>
+            <EditText
+                android:textAlignment="center"
+                android:background="@drawable/side_nav_bar"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:id="@+id/witness1_address"
+                android:hint="Enter the address of witness1"/>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:text="Name of Witness-02 :"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:textColor="#2E4053"/>
+            <EditText
+                android:textAlignment="center"
+                android:background="@drawable/side_nav_bar"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:id="@+id/witness2"
+                android:hint="Enter the name of witness2"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:text="Address of Witness-02 :"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:textColor="#2E4053"/>
+
+            <EditText
+                android:textAlignment="center"
+                android:background="@drawable/side_nav_bar"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:id="@+id/witness2_address"
+                android:hint="Enter the address of witness2"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:text="Denmahar :"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:textColor="#2E4053"/>
+
+            <EditText
+                android:textAlignment="center"
+                android:background="@drawable/side_nav_bar"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:id="@+id/denmahar"
+                android:hint="Enter the Amount of Denmahar"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:text="Registration Number :"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:textColor="#2E4053"/>
+            <EditText
+                android:textAlignment="center"
+                android:background="@drawable/side_nav_bar"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:id="@+id/registartion_number"
+                android:hint="Enter Registration Number"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:text="License Number of this marriage's Qazi :"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:textColor="#2E4053"/>
+
+            <EditText
+                android:textAlignment="center"
+                android:background="@drawable/side_nav_bar"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:id="@+id/kazi_license"
+                android:hint="Enter Kazi's License Number"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:text="Date Of Marriage :"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:textColor="#2E4053"/>
+            <TextView
+                android:id="@+id/dom"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:text="Enter Date of Marriage"
+                android:textAlignment="textStart"
+                android:gravity="start"
+                android:textColor="#9FB0B0"
+                android:textSize="19dp"/>
+
+            <EditText
+                android:textAlignment="center"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:id="@+id/date_of_marriage"
+                android:hint="Date of Marriage"/>
+
+            <Button
+
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:id="@+id/submit"
+                android:textColor="@android:color/white"
+                android:textStyle="bold"
+                android:textSize="20dp"
+                android:background="#E74C3C"
+                android:text="Submit"/>
+
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</LinearLayout>

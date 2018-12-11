@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.user.familycyclefinal.Kazi.MrgCertificates">
+
+    <TextView
+        android:paddingTop="10dp"
+        android:id="@+id/boundary"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:background="#0E6655"
+        android:text="Certificate Related To Muslim Marriage"
+        android:textColor="@android:color/white"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:textSize="25dp"/>
+    <ScrollView
+        android:layout_below="@+id/boundary"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#A9DFBF"
+        android:padding="10dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+
+            <TextView
+                android:textStyle="bold"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/id2"
+                android:textSize="25dp"
+                android:textColor="@android:color/black"
+                android:text="NikahNama :" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textSize="17dp"
+                android:id="@+id/id3"
+                android:layout_below="@+id/id2"
+                android:textColor="@android:color/black"
+                android:text="The nikah nama is a written document that two Muslim partners entering into a civil union must put their signature on in order to legalise their marriage. Under the Muslim Family Laws Ordinance 1961, it is the legal evidence of said union and lays out the rights and obligations agreed upon the by the bride and groom." />
+
+            <TextView
+                android:textStyle="bold"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/id4"
+                android:layout_below="@+id/id3"
+                android:textSize="25dp"
+                android:textColor="@android:color/black"
+                android:text="Marriage Certificate :" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textSize="17dp"
+                android:id="@+id/id5"
+                android:layout_below="@+id/id4"
+                android:textColor="@android:color/black"
+                android:text="Marriage certificate is an official declaration that states that two people are married.A marriage certificate is the legitimate proof that a couple is married. In 2006, the Supreme Court made it mandatory to register the marriage for safeguarding women’s rights. Hence, obtaining a marriage certificate after marriage can have various benefits.
+Note: To obtain marriage certificate, the groom must be over 21 years of age and the bride must be over 18 years of age.
+Marriage certificate is an essential document while applying for a passport or opening a bank account with a new surname post wedding. Also, in case of foreign travel or visa processing, many embassies request a copy of the marriage certificate. Hence, a marriage certificate is obligatory many couples to move to abroad after wedding." />
+
+            <TextView
+                android:textStyle="bold"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/id6"
+                android:layout_below="@+id/id5"
+                android:textSize="25dp"
+                android:textColor="@android:color/black"
+                android:text="Notarial certificate  :" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textSize="17dp"
+                android:id="@+id/id7"
+                android:layout_below="@+id/id6"
+                android:textColor="@android:color/black"
+                android:text="The notarial certificate is a written statement, signed and sealed by the notary public, certifying the facts of a notarial act.it is very important to make marriage license notarized to eliminate all doubt and ambiguities surrounding the signing.
+The verified steps for notarization are:
+  Verifying whole process with either call your local notary public or visit your notary's official website. This verification process ensures you have all necessary documentation.
+      1.Go to your local notary public to sign your marriage certificate.
+      2.Bring a copy of the marriage certificate and valid IDs to verify who you are. Hand these documents over for verification.
+      3.Sign the marriage certificate in front of the notary after you and your spouse receive verification of your identities.The signing must occur in front of the notary.
+      4.Take the oath the notary gives you. This oath states that you understand the contents of the writing and verify the truthfulness of the contents. Then the notary stamps the signed marriage license as a true and official copy. This makes the license self-authenticating in court.
+      5.Pay for the notarization services if there is an applicable fee in your area.
+" />
+
+            <TextView
+                android:textStyle="bold"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/id8"
+                android:layout_below="@+id/id7"
+                android:textSize="25dp"
+                android:textColor="@android:color/black"
+                android:text="Divorce Decree and Divorce Certificate :" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textSize="17dp"
+                android:id="@+id/id9"
+                android:layout_below="@+id/id8"
+                android:textColor="@android:color/black"
+                android:text="After a divorce, you might be confused about some of the divorce documents. Each one of the divorce papers serves a different purpose. You get your divorce decree from court, but a divorce certificate is not issued by a court.
+A divorce decree is a court document that is a final judgment from divorce court. It contains information about your case, including spousal support, child support, custody, visitation, property division, and other information.Only a court can issue a divorce decree. You receive it at the end of your case.
+A divorce certificate is a completely different document from a divorce decree. A certificate is not prepared by a court. Instead, your state's health department or bureau of vital statistics issues the certificate. This is usually the same place where you get your birth certificate.
+Unlike a lengthy divorce decree, a divorce certificate is a simple document that shows:
+
+  1.You are divorced
+  2.The names of both former spouses
+  3.The date of the divorce
+  4.The place of the divorce.
+  5.Uses of a Divorce Certificate
+
+A divorce certificate is used for limited purposes, and not all states issue a divorce certificate. You can use it for:
+
+  1.Getting a name change
+  2.Showing proof of divorce without revealing the details of your divorce
+  4.Getting a travel visa
+  5.Getting a passport, unless your name change is not on the certificate
+  6.Inheritance purposes, to show you are single,Getting married
+  8.Anywhere you need to show proof of divorce.
+" />
+
+
+
+
+
+        </RelativeLayout>
+
+
+    </ScrollView>
+
+
+
+</RelativeLayout>

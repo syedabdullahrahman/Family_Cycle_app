@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <item
+        android:id="@+id/kaziprofile"
+        android:icon="@drawable/myprofile"
+        android:title="Profile"
+        />
+
+    <item
+        android:id="@+id/registered"
+        android:icon="@drawable/ic_view_list_black_24dp"
+        android:title="List of Marriage"
+        />
+
+    <item
+        android:id="@+id/fees"
+        android:icon="@drawable/ic_monetization_on_black_24dp"
+        android:title="Rules, Fees and Others"
+        />
+</menu>

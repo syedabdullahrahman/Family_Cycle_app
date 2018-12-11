@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.user.familycyclefinal.After_Marriage.HappyMoments">
+
+
+    <TextView
+        android:paddingTop="10dp"
+        android:id="@+id/boundary"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="#6C3483"
+        android:text="Happy Moments in Married Life"
+        android:textColor="@android:color/white"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:textSize="25dp"/>
+    <ScrollView
+        android:layout_below="@+id/boundary"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#AED6F1"
+        android:padding="10dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/intro"
+                android:textSize="17dp"
+                android:textColor="@android:color/black"
+                android:text="Ah, may be this is going to disappoint you but there are no secrets of a happy marriage!
+
+It’s because the happiness in a marriage is simply a product of your individual happiness levels and the extent of togetherness.
+
+
+
+You marry someone because you love the person, and obviously you want to be a happily married couple.
+
+However, even if you’re happy you cannot make your partner truly happy if that happiness doesn’t come from within him or her.
+
+You can share your happiness with your partner, but you can’t impose that happiness, nor try to direct his or her happiness.
+
+Since marriage implies a union, there has to be togetherness among the spouses. If the couple lacks togetherness, they would not be happy.
+
+Therefore, you can only find happiness in a marriage if you and your partner are really happy from within and enjoy acts of togetherness."/>
+
+            <TextView
+                android:textStyle="bold"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/id2"
+                android:layout_below="@+id/intro"
+                android:textSize="25dp"
+                android:textColor="@android:color/black"
+                android:text="Simple Daily Tips for a Happy Marriage:" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textSize="17dp"
+                android:id="@+id/id3"
+                android:layout_below="@+id/id2"
+                android:textColor="@android:color/black"
+                android:text=" It’s very simple to find happiness in a marriage. You can do that by noticing and doing the smallest of things together.
+
+Here are some ways of being together and enjoying each other in a happy married life:
+
+Smile and look lovingly at each other while your partner works, cooks, or walks in after a long day.
+Find time to hold hands or cuddle in bed. Just become best friendswith one another.
+Discover the first grey hair and celebrate that moment.
+Look at old photographs and movies together.
+Read the newspaper, or go for long walks together. Get up and sip your morning cup of tea or coffee together.
+Eat meals or watch a TV channel that your spouse likes, even if you don’t.
+Just be together and let your eye’s do the talking, without any words spoken.
+This list can be endless, and you can keep adding to it in the comments below!
+
+As you see, happiness lies in those precious moments of togetherness that you share without any expectations.
+
+The best way to find happiness in a marriage is basically when you remain w
+
+ho you are. And you remain willingly available to the other person, without letting the ego become an obstacle.
+
+You love and live with your partner because you love them and are willing to do anything for them.
+
+You have a choice to find happiness by paying attention to the things that really matter, and ignore or let go of the things that don’t.
+
+Life is full of twists and turns. But if you’re together in a marriage and search for companionship in one another, then you can make your life’s journey worthwhile.
+
+So the search for happiness in a marriage isn’t tough, provided you are willing to work for it. " />
+
+
+        </RelativeLayout>
+
+
+    </ScrollView>
+
+</RelativeLayout>

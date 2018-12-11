@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.user.familycyclefinal.Family_Planning.NaturalMethodsForAvoingPregnancy">
+
+
+    <TextView
+        android:paddingTop="10dp"
+        android:id="@+id/boundary"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:background="#943126"
+        android:text="Natural Methods For Avoiding Pregnancy"
+        android:textColor="@android:color/white"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:textSize="25dp"/>
+    <ScrollView
+        android:layout_below="@+id/boundary"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#FADBD8"
+        android:padding="10dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/intro"
+                android:textSize="17dp"
+                android:textColor="@android:color/black"
+                android:text="intro"/>
+
+            <TextView
+                android:textStyle="bold"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/id2"
+                android:layout_below="@+id/intro"
+                android:textSize="25dp"
+                android:textColor="@android:color/black"
+                android:text="How Do I Prevent Pregnancy Using this Family Planning Method:" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textSize="17dp"
+                android:id="@+id/id3"
+                android:layout_below="@+id/id2"
+                android:textColor="@android:color/black"
+                android:text="To prevent pregnancy naturally using CycleBeads, a woman should avoid having unprotected intercourse on days 8-19 of her cycle, where the start of her cycle, Day 1, is the first day of her period. This means that during the days when she is potentially fertile, she should either abstain from intercourse or use a back up family planning method such as a condom. She should also track that her cycles are between 26 and 32 days long*." />
+
+            <TextView
+                android:textStyle="bold"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/id4"
+                android:layout_below="@+id/id3"
+                android:textSize="25dp"
+                android:textColor="@android:color/black"
+                android:text="How Effective Is this Family Planning Method at Preventing Pregnancy?" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textSize="17dp"
+                android:id="@+id/id5"
+                android:layout_below="@+id/id4"
+                android:textColor="@android:color/black"
+                android:text="CycleBeads is based on the Standard Days Method of family planning, a family planning method that has been proven more than 95% effective at preventing pregnancy. It is comparable to or more effective than other user-directed contraceptive methods. It is the most effective way to prevent pregnancy naturally in terms of typical use effectiveness." />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:id="@+id/img1"
+                android:layout_below="@+id/id5"
+                android:src="@drawable/naturalpreg"
+                />
+
+
+            <TextView
+                android:textStyle="bold"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/id6"
+                android:layout_below="@+id/img1"
+                android:textSize="25dp"
+                android:textColor="@android:color/black"
+                android:text="What About Other Ways of Preventing Pregnancy:" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textSize="17dp"
+                android:id="@+id/id7"
+                android:layout_below="@+id/id6"
+                android:textColor="@android:color/black"
+                android:text="The Standard Days Method and CycleBeads were designed to make natural family planning easy by taking out subjective observations and the detailed tracking that can cause errors. The method was also designed to be extremely easy to teach so that a woman can begin using it right away. Women using this family planning method know easily how to avoid pregnancy naturally without needing significant training or months of practice before they can begin using it.
+There are other natural family planning methods that can be used to avoid pregnancy. These methods usually rely on a user tracking her fertility symptoms such as cervical mucus and basal body temperature. While these methods can be effective, they can also be difficult to use correctly and to teach." />
+
+
+
+
+        </RelativeLayout>
+
+
+    </ScrollView>
+
+
+</RelativeLayout>

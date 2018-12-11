@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.user.familycyclefinal.After_Marriage.Healthissues">
+
+
+    <TextView
+        android:paddingTop="10dp"
+        android:id="@+id/boundary"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="#6C3483"
+        android:text="Health issues in Married Life"
+        android:textColor="@android:color/white"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:textSize="25dp"/>
+    <ScrollView
+        android:layout_below="@+id/boundary"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#AED6F1"
+        android:padding="10dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/intro"
+                android:textSize="17dp"
+                android:textColor="@android:color/black"
+                android:text="Marriage is said to affect all aspects of one life such as finances, social life and particularly physical health. If you are leading a happy, contented life, there are high chances that the happiness will be reflective on your face, however, if you are depressed and are going through a tough time, not only will your physical health but your mental health will also deteriorate.
+
+Similarly, a happy or unhappy married life will result in positive or negative effects on an individual."/>
+
+            <TextView
+                android:textStyle="bold"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/id2"
+                android:layout_below="@+id/intro"
+                android:textSize="25dp"
+                android:textColor="@android:color/black"
+                android:text="Improved general health:" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textSize="17dp"
+                android:id="@+id/id3"
+                android:layout_below="@+id/id2"
+                android:textColor="@android:color/black"
+                android:text="Married people show better signs of health as compared to widowed and divorced people. A number of reasons are thought to be responsible for this such as one naturally tends to eat a healthy, balanced diet and exercise regularly when happy.
+
+Secondly, partners tend to take care of each other and help each other stay fit. Any signs of illnesses are attended to promptly, eliminating chances of any health problems of getting serious." />
+
+            <TextView
+                android:textStyle="bold"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/id4"
+                android:layout_below="@+id/id3"
+                android:textSize="25dp"
+                android:textColor="@android:color/black"
+                android:text="Better mental health:" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textSize="17dp"
+                android:id="@+id/id5"
+                android:layout_below="@+id/id4"
+                android:textColor="@android:color/black"
+                android:text="Depression, loneliness, social isolation, all are usually related to poor mental health. Most of the people who suffer from such issues are usually in an abusive relationship, divorced or widowed or are prey to other factors such as stress.
+
+Married people rarely face these challenges because they have a loving partner by their side as well as their kids. Being surrounded by such supportive figures only helps them feel loved and keeps their mental health from being affected.  " />
+
+            <TextView
+                android:textStyle="bold"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/id6"
+                android:layout_below="@+id/id5"
+                android:textSize="25dp"
+                android:textColor="@android:color/black"
+                android:text="Behavioural improvements:" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textSize="17dp"
+                android:id="@+id/id7"
+                android:layout_below="@+id/id6"
+                android:textColor="@android:color/black"
+                android:text=" Risky behaviors usually tone down in married people as compared to single individuals as well as bad habits such as smoking, excessive drinking are also usually abandoned by people in order to stay safe and healthy for their family.
+
+This is a great effect of marriage on health as it helps the individual to improve into the best versions of themselves." />
+
+            <TextView
+                android:textStyle="bold"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/id8"
+                android:layout_below="@+id/id7"
+                android:textSize="25dp"
+                android:textColor="@android:color/black"
+                android:text="Longevity:" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textSize="17dp"
+                android:id="@+id/id9"
+                android:layout_below="@+id/id8"
+                android:textColor="@android:color/black"
+                android:text="An improved general health and healthy lifestyle only result in the longevity of a married couple. Anyone who has taken care of themselves led a happy and satisfied life is expected to live a longer as compared to those who had been prone to illnesses, stress and a toxic relationship.
+
+A loving couple who have built their relationship on love, trust and commitment can expect their married life to stay smooth throughout and maybe even see their children grow into responsible adults and maybe even their grandchildren as well." />
+
+            <TextView
+                android:textStyle="bold"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/id10"
+                android:layout_below="@+id/id9"
+                android:textSize="25dp"
+                android:textColor="@android:color/black"
+                android:text="Better Immune System:" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textSize="17dp"
+                android:id="@+id/id11"
+                android:layout_below="@+id/id10"
+                android:textColor="@android:color/black"
+                android:text="High cortisol levels are damaging to the immune system and make the individual susceptible to illnesses. Moreover, a happy couple may also have a better immune system because they have someone who takes cares of them by their side.
+
+Spouses tend to look after each other physical health and seek medical help as soon as they realize their significant other might have some kind of sickness. The constant love, care, attention and support is able to improve an individual’s health significantly and help them feel good."
+                />
+
+
+
+
+        </RelativeLayout>
+
+
+    </ScrollView>
+
+</RelativeLayout>

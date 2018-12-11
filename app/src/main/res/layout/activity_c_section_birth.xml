@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back1"
+    android:paddingLeft="10dp"
+    tools:context="com.example.user.familycyclefinal.DuringPragnancy.meditation_dp">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:paddingTop="10dp"
+            android:layout_height="68dp"
+            android:text="What is c section birth?"
+            android:textSize="28dp"
+            android:textColor="#EEEBE1"
+            android:textStyle="bold"/>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="330dp"
+            android:layout_gravity="center_vertical|right"
+            android:textSize="20dp"
+            android:paddingBottom="10dp"
+            android:textColor="@android:color/white"
+            android:text="It is a technique to reduce the birth complication. But excessive usages of this have made a warning for both mother and child. The World Health Organization (WHO), citing the international healthcare community, puts the recommended level of C-sections in a country at 10-15%. Bangladesh having 23% reported 2014 but now this rate has reached a stage that has beyond description. Money has become the main issue rather the health of both baby and mother. The awareness among the families must be raised."
+            />
+
+        <ImageView
+            android:paddingTop="10dp"
+            android:layout_width="400dp"
+            android:layout_height="300dp"
+            android:src="@drawable/c_section_birth"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="95dp"
+            android:text="What happens right before a c-section?"
+            android:textSize="30dp"
+            android:textColor="#EEEBE1"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="1100dp"
+            android:textSize="20dp"
+            android:textColor="@android:color/white"
+          android:text="First, your practitioner will explain why he believes a c-section is necessary, and you'll be asked to sign a consent form. If your prenatal practitioner is a midwife, you'll be assigned an obstetrician for the surgery who will make the final decision and get your consent.
+
+Typically, your husband or partner can be with you during most of the preparation and for the birth. In the rare instance that a c-section is such an emergency that there's no time for your partner to change clothes – or you need general anesthesia, which would knock you out completely – your partner might not be allowed to stay in the operating room with you.
+An anesthesiologist will then come by to review various pain-management options. It's rare these days to be given general anesthesia, except in the most extreme emergency situations or if you can't have regional pain relief (like an epidural or spinal block) for some reason.
+
+More likely, you'll be given an epidural or spinal block, which will numb the lower half of your body but leave you awake and alert for the birth of your baby.
+
+If you've already had an epidural for pain relief during labor, it will likely be used for your c-section as well. Before the surgery, you'll get extra medication to ensure that you're completely numb. (You may still feel some pressure or a tugging sensation at some point during the surgery.)
+
+A catheter is inserted into your urethra to drain urine during the procedure, and an IV is started (for fluids and medications) if you don't have one already. The top section of your pubic hair may be shaved, and you're moved into an operating room."
+
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:paddingTop="10dp"
+            android:layout_height="75dp"
+            android:text="How is a c-section done?"
+            android:textSize="28dp"
+            android:textColor="#EEEBE1"
+            android:textStyle="bold"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="720dp"
+            android:layout_gravity="center_vertical|right"
+            android:textSize="20dp"
+            android:textColor="@android:color/white"
+            android:text=" The stitches used to close the incision in your uterus will dissolve. The final layer – the skin – may be closed with stitches or staples, which are usually removed three days to a week later (or your doctor may choose to use stitches that dissolve). Closing your uterus and belly will take a lot longer than opening you up, usually about 30 minutes.
+
+After the surgery is complete, you'll be wheeled into a recovery room, where you'll be closely monitored for a few hours. If your baby is fine, he'll be with you in the recovery room and you can finally hold him. You'll receive fluids through your IV until you can eat and drink.If you plan to breastfeed, give it a try now. You may find nursing more comfortable if you and your newborn lie on your sides facing each other.
+
+You can expect to stay in the hospital for about three days. Your doctor will talk with you about your pain medication. Most use a patient-controlled anesthesia, through your IV, followed by pain pills as necessary when you're able to eat and drink."
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:paddingTop="10dp"
+            android:layout_height="75dp"
+            android:text="The reason that can control c section birth: "
+            android:textSize="28dp"
+            android:textColor="#EEEBE1"
+            android:textStyle="bold"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:paddingTop="10dp"
+            android:layout_height="300dp"
+            android:text="	Hire the Provider or doctor midwife wisely
+	Take an independent natural childbirth class.
+	Avoid induction unless there's a serious medical problem.
+	Believe in your body
+"
+            android:textSize="28dp"
+            android:textColor="@android:color/white"
+            />
+
+
+
+    </LinearLayout>
+
+</ScrollView>
