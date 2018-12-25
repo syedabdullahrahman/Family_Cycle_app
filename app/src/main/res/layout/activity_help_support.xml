@@ -47,7 +47,13 @@
                 android:id="@+id/id3"
                 android:layout_below="@+id/id2"
                 android:textColor="@android:color/black"
-                android:text=" likhbo " />
+                android:text=" Married couple can get there service of 4 stages.
+1. Life after marriage
+2.Family Planning
+3.During pregnancy
+4.Baby Care
+For every stage he/she will find some help tips related to the stage. Tips are designed expendably. By clicking one tips he/she can read out the details of the tips. In the second fragment he/she can read articles related to the stage. In the third fragment he/she can upload picture to the photo album. In the upper right corner there will be two icon. By click one he/she will to the home page where he/she can make and update his/her profile, see his/her photo album, change settings, share the app , rate the app etc. On the other icon, he can post his note or query. In the fourth fragment he/she will find the note that he/she posted. In the 5th fragment , by clicking the bot icon he/she will enter into the chatbot and can make interactive conversation with the machine.
+ " />
 
 
 

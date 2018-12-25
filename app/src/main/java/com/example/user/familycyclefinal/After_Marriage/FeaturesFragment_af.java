@@ -16,6 +16,7 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 import com.example.user.familycyclefinal.R;
+import com.example.user.familycyclefinal.maps.MapsActivity;
 
 /**
  * A simple {@link Fragment} subclass.
@@ -31,10 +32,10 @@ public class FeaturesFragment_af extends Fragment {
     GridView lv;
     String []titles = {"Honeymoon package",
             "Married Life intimacy","Boundary Problems",
-            "Health issues","Communication","Challenges","Happy Moments of Married Life"};
+            "Health issues","Communication","Challenges","Restaurent Search (Google map)","Happy Moments of Married Life"};
     int [] images = {R.drawable.honeymoon,
             R.drawable.intimacy,R.drawable.boundary,
-            R.drawable.healthissues,R.drawable.communication,R.drawable.challenges,R.drawable.happy_moments};
+            R.drawable.healthissues,R.drawable.communication,R.drawable.challenges,R.drawable.mapicon,R.drawable.happy_moments};
 
 
 
@@ -127,6 +128,10 @@ public class FeaturesFragment_af extends Fragment {
                 }
 
                 if(i==6){
+                    Intent intent = new Intent(getActivity(),MapsActivity.class);
+                    startActivity(intent);
+                }
+                if(i==7){
                     Intent intent = new Intent(getActivity(),HappyMoments.class);
                     startActivity(intent);
                 }

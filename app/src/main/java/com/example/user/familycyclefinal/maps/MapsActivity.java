@@ -191,27 +191,27 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
                 break;
 
 
-            case R.id.B_schools:
+           case R.id.B_schools:
                 mMap.clear();
-                String school = "school";
+                String school = "Restaurents";
                 url = getUrl(latitude, longitude, school);
                 dataTransfer[0] = mMap;
                 dataTransfer[1] = url;
 
                 getNearbyPlacesData.execute(dataTransfer);
-                Toast.makeText(MapsActivity.this, "Showing Nearby Schools", Toast.LENGTH_SHORT).show();
+                Toast.makeText(MapsActivity.this, "Showing Nearby Restaurents", Toast.LENGTH_SHORT).show();
                 break;
             case R.id.B_restaurants:
                 mMap.clear();
-                String resturant = "restuarant";
+                String resturant = "Kazi Office";
                 url = getUrl(latitude, longitude, resturant);
                 dataTransfer[0] = mMap;
                 dataTransfer[1] = url;
 
                 getNearbyPlacesData.execute(dataTransfer);
-                Toast.makeText(MapsActivity.this, "Showing Nearby Restaurants", Toast.LENGTH_SHORT).show();
+                Toast.makeText(MapsActivity.this, "Showing Nearby Kazi Office", Toast.LENGTH_SHORT).show();
                 break;
-            case R.id.B_to:
+
         }
     }
 

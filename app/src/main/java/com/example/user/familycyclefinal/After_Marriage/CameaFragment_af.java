@@ -1,14 +1,20 @@
 package com.example.user.familycyclefinal.After_Marriage;
 
 import android.content.Context;
+import android.content.Intent;
+import android.graphics.Bitmap;
 import android.net.Uri;
 import android.os.Bundle;
+import android.provider.MediaStore;
 import android.support.v4.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.Button;
+import android.widget.ImageView;
 import android.widget.Toast;
 
+import com.example.user.familycyclefinal.BabyCare.CameaFragment_bc;
 import com.example.user.familycyclefinal.R;
 
 /**
@@ -20,6 +26,11 @@ import com.example.user.familycyclefinal.R;
  * create an instance of this fragment.
  */
 public class CameaFragment_af extends Fragment {
+
+    Button btnpic;
+    ImageView imgTakenPic;
+    private static final int CAM_REQUEST=1313;
+
     // TODO: Rename parameter arguments, choose names that match
     // the fragment initialization parameters, e.g. ARG_ITEM_NUMBER
     private static final String ARG_PARAM1 = "param1";
@@ -66,7 +77,12 @@ public class CameaFragment_af extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_camea_fragment_af, container, false);
+        View view = inflater.inflate(R.layout.fragment_camea_fragment_af, container, false);
+
+        btnpic = (Button)view.findViewById(R.id.button);
+        imgTakenPic = (ImageView)view.findViewById(R.id.imageView);
+        btnpic.setOnClickListener(new CameaFragment_af.btnTakenPhotoClicker());
+    return  view;
     }
 
     // TODO: Rename method, update argument and hook method into UI event
@@ -105,5 +121,23 @@ public class CameaFragment_af extends Fragment {
     public interface OnFragmentInteractionListener {
         // TODO: Update argument type and name
         void onFragmentInteraction(Uri uri);
+    }
+
+    public void onActivityResult(int requestCode, int resultCode, Intent data) {
+        super.onActivityResult(requestCode, resultCode, data);
+
+        if(requestCode == CAM_REQUEST){
+            Bitmap bitmap = (Bitmap) data.getExtras().get("data");
+            imgTakenPic.setImageBitmap(bitmap);
+        }
+    }
+
+    public class btnTakenPhotoClicker implements  Button.OnClickListener{
+
+        @Override
+        public void onClick(View view) {
+            Intent intent = new Intent(MediaStore.ACTION_IMAGE_CAPTURE);
+            startActivityForResult(intent,CAM_REQUEST);
+        }
     }
 }

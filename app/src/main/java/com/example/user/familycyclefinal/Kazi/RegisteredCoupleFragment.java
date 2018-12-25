@@ -11,6 +11,7 @@ import android.view.ViewGroup;
 import android.widget.ArrayAdapter;
 import android.widget.ImageView;
 import android.widget.ListView;
+import android.widget.SearchView;
 import android.widget.TextView;
 import android.widget.Toast;
 
@@ -57,6 +58,7 @@ public class RegisteredCoupleFragment extends Fragment {
     String[] date ;//= {"10-1-2018", "12-02-2017"}
     int[] images = {R.drawable.couple, R.drawable.couple} ;
     ListView lv;
+    //SearchView searchView;
     ProgressDialog dialog;
 
 
@@ -103,6 +105,10 @@ public class RegisteredCoupleFragment extends Fragment {
 
         // custom listview er kaj part-1
         lv = (ListView) view.findViewById(R.id.couplelist);
+    //    searchView = (SearchView)view.findViewById(R.id.searchRegistrationnumber);
+        
+       // searchView.setOnQueryTextListener((SearchView.OnQueryTextListener) this);
+        
 
 
         String url = "https://family-cycle.herokuapp.com/FamilyAssistance/marriageRegistration/all";
@@ -172,6 +178,10 @@ public class RegisteredCoupleFragment extends Fragment {
 
         return view;
     }
+    
+    
+    
+
 
     class MyAdapter extends ArrayAdapter {
         int[] imageArray;
